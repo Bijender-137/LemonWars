@@ -1,0 +1,23 @@
+* {
+  text-decoration: none !important;
+  box-sizing: border-box !important;
+  list-style-type: none !important;
+}
+
+input:checked~.dot {
+  transform: translateX(166%);
+}
+
+input:checked~.block {
+  background-color: black;
+}
+
+.buttons:hover {
+  box-shadow: 0px 0px 64px 0px rgba(176, 0, 0, 0.30) !important;
+}
+
+@media (max-width:1024px) {
+  .overflow_hidden {
+    overflow: hidden;
+  }
+}

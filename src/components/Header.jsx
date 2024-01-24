@@ -1,0 +1,135 @@
+import React, { useState } from "react";
+import Pagelogo from "../assets/images/webp/page_logo.webp";
+import { RxContainer, RxCross1 } from "react-icons/rx";
+import { BiMenu } from "react-icons/bi";
+import { Mobile } from "./common/Icons";
+const Header = () => {
+  const [head, sethead] = useState(true);
+  function showUl() {
+    sethead(!head);
+  }
+  if (!head) {
+    document.body.classList.add("overflow_hidden");
+  } else {
+    document.getElementsByClassName("overflow_hidden");
+  }
+  return (
+    <>
+      <div>
+        <nav className="pt-6 lg:pt-10">
+          <div className="container mx-auto">
+            <div className="flex justify-between items-center lg:pl-14  lg:pr-20 xl:pl-28 xl:pr-44">
+              <div className="flex items-center">
+                <a href="#">
+                  <img
+                    src={Pagelogo}
+                    alt="Pagelogo"
+                    className="sm:max-w-[90px] sm:h-[60px] max-w-[70px] h-[50px]"
+                  />
+                </a>
+                <ul className="hidden lg:flex">
+                  <li className="ps-8 xl:ps-16">
+                    <a
+                      href="#"
+                      className="text-[15px] font-semibold text-black font-poppins after:content-[''] after:w-0 transition-all ease-linear after:duration-500 after:absolute after:h-[2px] after:bg-[#B00000] after:start-[50%] hover:after:w-full hover:after:start-0 overflow-hidden relative after:top-6 after:rounded-[10px]"
+                    >
+                      Our Services
+                    </a>
+                  </li>
+                </ul>
+              </div>
+              <div className="lg:mr-12 xl:mr-24">
+                <ul
+                  className={`flex gap-5 lg:gap-8 items-center justify-center z-20  flex-col lg:flex-row min-h-full lg:min-h-fit bg-white fixed lg:relative lg:bg-transparent start-[-100%] lg:start-0 top-0 w-full transition-all duration-300 ease-linear ${
+                    head ? "" : "!left-0"
+                  }`}
+                >
+                  <li className="lg:hidden">
+                    <a
+                      href="#"
+                      className="text-[15px] font-semibold text-black font-poppins after:content-[''] after:w-0 transition-all ease-linear after:duration-500 after:absolute after:h-[2px] after:bg-[#B00000] after:start-[50%] hover:after:w-full hover:after:start-0 overflow-hidden relative after:top-6 after:rounded-[10px]"
+                      onClick={showUl}
+                    >
+                      Our Services
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      href="#"
+                      className="text-black text-[15px] font-semibold font-poppins after:content-[''] after:w-0 transition-all ease-linear after:duration-500 after:absolute after:h-[2px] after:bg-[#B00000] after:start-[50%] hover:after:w-full hover:after:start-0 overflow-hidden relative after:top-6 after:rounded-[10px]"
+                      onClick={showUl}
+                    >
+                      About
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      className="text-black text-[15px] font-semibold font-poppins after:content-[''] after:w-0 transition-all ease-linear after:duration-500 after:absolute after:h-[2px] after:bg-[#B00000] after:start-[50%] hover:after:w-full hover:after:start-0 overflow-hidden relative after:top-6 after:rounded-[10px]"
+                      href="#"
+                      onClick={showUl}
+                    >
+                      Blog&News
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      className="text-black text-[15px] font-semibold font-poppins after:content-[''] after:w-0 transition-all ease-linear after:duration-500 after:absolute after:h-[2px] after:bg-[#B00000] after:start-[50%] hover:after:w-full hover:after:start-0 overflow-hidden relative after:top-6 after:rounded-[10px]"
+                      href="#"
+                      onClick={showUl}
+                    >
+                      Contact
+                    </a>
+                  </li>
+                  <li className="lg:hidden">
+                    <a
+                      className="text-black text-[15px] font-semibold font-poppins after:content-[''] after:w-0 transition-all ease-linear after:duration-500 after:absolute after:h-[2px] after:bg-[#B00000] after:start-[50%] hover:after:w-full hover:after:start-0 overflow-hidden relative after:top-6 after:rounded-[10px]"
+                      href="#"
+                      onClick={showUl}
+                    >
+                      Account
+                    </a>
+                  </li>
+                </ul>
+              </div>
+              <div>
+                <ul className="items-center hidden lg:flex">
+                  <li>
+                    <a
+                      className="text-black text-[15px] font-semibold font-poppins  after:content-[''] after:w-0 transition-all ease-linear after:duration-500 after:absolute after:h-[2px] after:bg-[#B00000] after:start-[50%] hover:after:w-full hover:after:start-0 overflow-hidden relative after:top-6 after:rounded-[10px]"
+                      href="#trial"
+                      onClick={showUl}
+                    >
+                      Account
+                    </a>
+                  </li>
+                  <li className="mx-[31px] hidden lg:flex">
+                    <span className="h-5 w-[1px] bg_gray block"></span>
+                  </li>
+                  <li>
+                    <a
+                      target="blank"
+                      href="tel:+2349067322844"
+                      className="flex items-center"
+                    >
+                      <Mobile />
+                      <p className="text-black fs_xs font-poppins ps-[6px]">
+                        +2349067322844
+                      </p>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+              <div onClick={showUl} className="z-20 lg:hidden">
+                <h3 className="text-black text-3xl">
+                  {head ? <BiMenu /> : <RxCross1 />}
+                </h3>
+              </div>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </>
+  );
+};
+
+export default Header;
