@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import Pagelogo from "../assets/images/webp/page_logo.webp";
-import { RxContainer, RxCross1 } from "react-icons/rx";
+import { RxCross1 } from "react-icons/rx";
 import { BiMenu } from "react-icons/bi";
 import { Mobile } from "./common/Icons";
 const Header = () => {

@@ -5,14 +5,12 @@ import RightIconBottom from "../assets/images/svg/img_right_icon_bottom.svg";
 import Webhosting2 from "../assets/images/webp/small_screen_girl_img.webp";
 const Hero = () => {
   const [activeTab, setActiveTab] = useState(1);
-
   const handleTabClick = (tabNumber) => {
     setActiveTab(tabNumber);
   };
 
   return (
     <>
-      <div>
         <div className="container">
           <div className="md:flex lg:pl-14 lg:pr-20 xl:pl-28 xl:pr-[126px] pt-10 md:pt-14 xl:pt-20">
             <div className="md:w-1/2">
@@ -115,7 +113,7 @@ const Hero = () => {
             </div>
           </div>
         </div>
-      </div>
+     
     </>
   );
 };

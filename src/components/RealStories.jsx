@@ -13,7 +13,10 @@ import CliLongImg from "../assets/images/webp/cli_2_img.webp";
 const RealStories = () => {
   return (
     <>
-      <div id="blogs" className="container lg:px-14 xl:pr-[92px] xl:pl-[142px] pt-20 lg:pt-28 px-8 xl:pt-40">
+      <div
+        id="blogs"
+        className="container lg:px-14 xl:pr-[92px] xl:pl-[142px] pt-20 lg:pt-28 px-8 xl:pt-40"
+      >
         <div className="md:flex">
           <div className="md:w-1/2">
             <div className="md:flex flex-col items-end">

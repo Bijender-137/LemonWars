@@ -19,7 +19,6 @@ input:checked~.block {
 
 .buttons:hover {
   box-shadow: 0px 0px 64px 0px rgba(176, 0, 0, 0.30) !important;
-
 }
 
 .preloader_text {
@@ -32,7 +31,6 @@ input:checked~.block {
   animation: stroke 3s infinite alternate;
   stroke-width: 2;
   stroke: #FFFFFF;
-  font-size: 100px;
 }
 
 @keyframes stroke {
@@ -68,7 +66,6 @@ input:checked~.block {
   background-color: #B00000;
   width: 100% !important;
 }
-
 
 @media (max-width:1024px) {
   .overflow_hidden {

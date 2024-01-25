@@ -3,11 +3,9 @@ import { LemonWars, Premium } from "./common/Helper";
 const LemonWares = () => {
   const [activeTab, setActiveTab] = useState(1);
   const [isYearly, setIsYearly] = useState(false);
-
   const handleTabClick = (tabNumber) => {
     setActiveTab(tabNumber);
   };
-
   const handleToggleChange = () => {
     setIsYearly(!isYearly);
   };

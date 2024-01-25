@@ -1,5 +1,4 @@
 import React from "react";
-import Preloaderimg from "../assets/images/webp/page_logo.webp";
 export const Preloader = () => {
   setTimeout(() => {
     document.getElementById("none").classList.add("hidden");
