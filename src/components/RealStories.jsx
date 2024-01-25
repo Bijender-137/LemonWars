@@ -124,7 +124,7 @@ const RealStories = () => {
           </div>
 
           <div className="lg:w-1/2 lg:pl-20 mt-6 lg:mt-0">
-            <div className="grid items-center justify-items-center lg:justify-items-start w-full gap-8 xl:gap-14 grid-cols-2 sm:grid-cols-3 lg:grid-cols-3">
+            <div className="grid items-center justify-items-center lg:justify-items-start w-full gap-6 lg:gap-8 xl:gap-14 grid-cols-2 sm:grid-cols-3 lg:grid-cols-3">
               <img
                 className="max-w-[120px]"
                 src={JpnlLongImg}
