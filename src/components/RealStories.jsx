@@ -13,7 +13,7 @@ import CliLongImg from "../assets/images/webp/cli_2_img.webp";
 const RealStories = () => {
   return (
     <>
-      <div className="container lg:px-14 xl:pr-[92px] xl:pl-[142px] pt-20 lg:pt-28 px-8 xl:pt-40">
+      <div id="blogs" className="container lg:px-14 xl:pr-[92px] xl:pl-[142px] pt-20 lg:pt-28 px-8 xl:pt-40">
         <div className="md:flex">
           <div className="md:w-1/2">
             <div className="md:flex flex-col items-end">
@@ -108,8 +108,8 @@ const RealStories = () => {
           </div>
         </div>
         {/* SECOND ROW IN THIS SECTION */}
-        <div className="xl:mt-24 mt-12 lg:mt-16 pt-1 lg:flex justify-between">
-          <div className="lg:w-1/2">
+        <div className="xl:mt-24 mt-12 lg:mt-16 pt-2 lg:flex justify-between">
+          <div className="lg:w-1/2 text-center lg:text-start">
             <h2 className="font-inter fs_4xl color_light_black font-extrabold lg:leading-[64px]">
               We serve over 100 Nigerian Websites
             </h2>
@@ -121,7 +121,7 @@ const RealStories = () => {
           </div>
 
           <div className="lg:w-1/2 lg:pl-20 mt-6 lg:mt-0">
-            <div className="grid items-center w-full gap-8 xl:gap-14 grid-cols-2 sm:grid-cols-3  lg:grid-cols-3">
+            <div className="grid items-center justify-items-center lg:justify-items-start w-full gap-8 xl:gap-14 grid-cols-2 sm:grid-cols-3 lg:grid-cols-3">
               <img
                 className="max-w-[120px]"
                 src={JpnlLongImg}

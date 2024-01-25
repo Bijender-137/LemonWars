@@ -4,9 +4,9 @@ import { HeartIcon } from "./common/Icons";
 const Footer = () => {
   return (
     <>
-      <div className="bg_red mt-20 xl:mt-28">
+      <div id="services" className="bg_red mt-20 xl:mt-28">
         <div className="container">
-          <div className="py-10 lg:pt-12 lg:pl-[60px] lg:pr-[60px] lg:pb-12 xl:pt-16 xl:pl-[104px] xl:pr-[115px] xl:pb-20">
+          <div className="py-10 lg:pt-12 lg:pl-[60px]  lg:pb-12 xl:pt-16 xl:pl-[104px]  xl:pb-20">
             <div className="xl:flex">
               <div className="xl:w-1/3">
                 <a href="#">
@@ -34,7 +34,7 @@ const Footer = () => {
                     <li className="lg:mt-6 mt-4">
                       <a
                         href="#"
-                        className="fs_xs color_light_e6 font-normal font-inter lg:leading-8"
+                        className="fs_xs color_light_e6 font-normal font-inter lg:leading-8 after:content-[''] after:w-0 transition-all ease-linear after:duration-500 after:absolute after:h-[2px] after:bg-[#DEEAF9] after:start-[50%] hover:after:w-full hover:after:start-0 overflow-hidden relative after:top-5 after:rounded-full"
                       >
                         Domain
                       </a>
@@ -42,7 +42,7 @@ const Footer = () => {
                     <li className="lg:mt-6 mt-3">
                       <a
                         href="#"
-                        className="fs_xs color_light_e6 font-normal font-inter lg:leading-8"
+                        className="fs_xs color_light_e6 font-normal font-inter lg:leading-8 after:content-[''] after:w-0 transition-all ease-linear after:duration-500 after:absolute after:h-[2px] after:bg-[#DEEAF9] after:start-[50%] hover:after:w-full hover:after:start-0 overflow-hidden relative after:top-5 after:rounded-full"
                       >
                         Shared Hosting
                       </a>
@@ -50,7 +50,7 @@ const Footer = () => {
                     <li className="lg:mt-6 mt-3">
                       <a
                         href="#"
-                        className="fs_xs color_light_e6 font-normal font-inter lg:leading-8"
+                        className="fs_xs color_light_e6 font-normal font-inter lg:leading-8 after:content-[''] after:w-0 transition-all ease-linear after:duration-500 after:absolute after:h-[2px] after:bg-[#DEEAF9] after:start-[50%] hover:after:w-full hover:after:start-0 overflow-hidden relative after:top-5 after:rounded-full"
                       >
                         Cloud Hosting
                       </a>
@@ -58,7 +58,7 @@ const Footer = () => {
                     <li className="lg:mt-6 mt-3">
                       <a
                         href="#"
-                        className="fs_xs color_light_e6 font-normal font-inter lg:leading-8"
+                        className="fs_xs color_light_e6 font-normal font-inter lg:leading-8 after:content-[''] after:w-0 transition-all ease-linear after:duration-500 after:absolute after:h-[2px] after:bg-[#DEEAF9] after:start-[50%] hover:after:w-full hover:after:start-0 overflow-hidden relative after:top-5 after:rounded-full"
                       >
                         Private Hosting
                       </a>
@@ -66,14 +66,14 @@ const Footer = () => {
                   </div>
                   <div>
                     <ul>
-                      <li className="font-bold font-inter text-white fs_xs lg:leading-6">
+                      <li className="font-bold font-inter text-white fs_xs lg:leading-6 ">
                         Hosting
                       </li>
                     </ul>
                     <li className="lg:mt-6 mt-4">
                       <a
                         href="#"
-                        className="fs_xs color_light_e6 font-normal font-inter lg:leading-8"
+                        className="fs_xs color_light_e6 font-normal font-inter lg:leading-8 after:content-[''] after:w-0 transition-all ease-linear after:duration-500 after:absolute after:h-[2px] after:bg-[#DEEAF9] after:start-[50%] hover:after:w-full hover:after:start-0 overflow-hidden relative after:top-5 after:rounded-full"
                       >
                         Cheap Hosting
                       </a>
@@ -81,7 +81,7 @@ const Footer = () => {
                     <li className="lg:mt-6 mt-3">
                       <a
                         href="#"
-                        className="fs_xs color_light_e6 font-normal font-inter lg:leading-8"
+                        className="fs_xs color_light_e6 font-normal font-inter lg:leading-8 after:content-[''] after:w-0 transition-all ease-linear after:duration-500 after:absolute after:h-[2px] after:bg-[#DEEAF9] after:start-[50%] hover:after:w-full hover:after:start-0 overflow-hidden relative after:top-5 after:rounded-full"
                       >
                         Hosting Wordpress
                       </a>
@@ -89,7 +89,7 @@ const Footer = () => {
                     <li className="lg:mt-6 mt-3">
                       <a
                         href="#"
-                        className="fs_xs color_light_e6 font-normal font-inter lg:leading-8"
+                        className="fs_xs color_light_e6 font-normal font-inter lg:leading-8 after:content-[''] after:w-0 transition-all ease-linear after:duration-500 after:absolute after:h-[2px] after:bg-[#DEEAF9] after:start-[50%] hover:after:w-full hover:after:start-0 overflow-hidden relative after:top-5 after:rounded-full"
                       >
                         Email Hosting
                       </a>
@@ -97,7 +97,7 @@ const Footer = () => {
                     <li className="lg:mt-6 mt-3">
                       <a
                         href="#"
-                        className="fs_xs color_light_e6 font-normal font-inter lg:leading-8"
+                        className="fs_xs color_light_e6 font-normal font-inter lg:leading-8 after:content-[''] after:w-0 transition-all ease-linear after:duration-500 after:absolute after:h-[2px] after:bg-[#DEEAF9] after:start-[50%] hover:after:w-full hover:after:start-0 overflow-hidden relative after:top-5 after:rounded-full"
                       >
                         Hosting Unlimited
                       </a>
@@ -112,7 +112,7 @@ const Footer = () => {
                     <li className="lg:mt-6 mt-4">
                       <a
                         href="#"
-                        className="fs_xs color_light_e6 font-normal font-inter lg:leading-8"
+                        className="fs_xs color_light_e6 font-normal font-inter lg:leading-8 after:content-[''] after:w-0 transition-all ease-linear after:duration-500 after:absolute after:h-[2px] after:bg-[#DEEAF9] after:start-[50%] hover:after:w-full hover:after:start-0 overflow-hidden relative after:top-5 after:rounded-full"
                       >
                         About
                       </a>
@@ -120,7 +120,7 @@ const Footer = () => {
                     <li className="lg:mt-6 mt-3">
                       <a
                         href="#"
-                        className="fs_xs color_light_e6 font-normal font-inter lg:leading-8"
+                        className="fs_xs color_light_e6 font-normal font-inter lg:leading-8 after:content-[''] after:w-0 transition-all ease-linear after:duration-500 after:absolute after:h-[2px] after:bg-[#DEEAF9] after:start-[50%] hover:after:w-full hover:after:start-0 overflow-hidden relative after:top-5 after:rounded-full"
                       >
                         Career
                       </a>
@@ -128,7 +128,7 @@ const Footer = () => {
                     <li className="lg:mt-6 mt-3">
                       <a
                         href="#"
-                        className="fs_xs color_light_e6 font-normal font-inter lg:leading-8"
+                        className="fs_xs color_light_e6 font-normal font-inter lg:leading-8 after:content-[''] after:w-0 transition-all ease-linear after:duration-500 after:absolute after:h-[2px] after:bg-[#DEEAF9] after:start-[50%] hover:after:w-full hover:after:start-0 overflow-hidden relative after:top-5 after:rounded-full"
                       >
                         Contact Us
                       </a>
@@ -143,7 +143,7 @@ const Footer = () => {
                     <li className="lg:mt-6 mt-4">
                       <a
                         href="#"
-                        className="fs_xs color_light_e6 font-normal font-inter lg:leading-8"
+                        className="fs_xs color_light_e6 font-normal font-inter lg:leading-8 after:content-[''] after:w-0 transition-all ease-linear after:duration-500 after:absolute after:h-[2px] after:bg-[#DEEAF9] after:start-[50%] hover:after:w-full hover:after:start-0 overflow-hidden relative after:top-5 after:rounded-full"
                       >
                         FAQ
                       </a>
@@ -151,7 +151,7 @@ const Footer = () => {
                     <li className="lg:mt-6 mt-3">
                       <a
                         href="#"
-                        className="fs_xs color_light_e6 font-normal font-inter lg:leading-8"
+                        className="fs_xs color_light_e6 font-normal font-inter lg:leading-8 after:content-[''] after:w-0 transition-all ease-linear after:duration-500 after:absolute after:h-[2px] after:bg-[#DEEAF9] after:start-[50%] hover:after:w-full hover:after:start-0 overflow-hidden relative after:top-5 after:rounded-full"
                       >
                         Help support
                       </a>

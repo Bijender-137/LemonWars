@@ -16,8 +16,18 @@ input:checked~.block {
   box-shadow: 0px 0px 64px 0px rgba(176, 0, 0, 0.30) !important;
 }
 
+body,html{
+  scroll-behavior: smooth;
+}
+
 @media (max-width:1024px) {
   .overflow_hidden {
     overflow: hidden;
+  }
+}
+
+@media (min-width:1400px) {
+  .cards_gap {
+    gap: 100px !important;
   }
 }

@@ -12,15 +12,15 @@ import SupportImg from "../assets/images/webp/services_img.webp";
 const WebHosting = () => {
   return (
     <>
-      <div>
+      <div id="about">
         <div className="container">
-          <div className="lg:pl-14 lg:pr-20 xl:pl-18 xl:pr-20 pt-20 pb-1">
-            <div className="lg:flex pb-3">
-              <div className="lg:w-1/2">
+          <div className="lg:pl-14 lg:pr-16 xl:pl-18 xl:pr-[70px] pt-20 pb-1">
+            <div className="lg:flex pb-2">
+              <div className="lg:w-1/2 text-center lg:text-start">
                 <h2 className="font-extrabold font-poppins color_light_black fs_4xl xl:leading-[64px]">
                   True Cloud Web Hosting
                 </h2>
-                <p className="fs_sm font-inter font-normal color_light_black max-w-[800px] lg:max-w-[575px] xl:leading-[32px] pt-4 xl:pt-6">
+                <p className="fs_sm font-inter font-normal color_light_black lg:max-w-[575px] xl:leading-[32px] pt-4 xl:pt-6">
                   True Cloud Web Hosting. All of the hosting packages we offer
                   are deployed instantly on our SSD powered cloud. We don’t use
                   dedicated servers that operate on single pieces of hardware.
@@ -29,7 +29,7 @@ const WebHosting = () => {
                 </p>
               </div>
               <div className="lg:w-1/2 w-full mt-6 xl:mt-4">
-                <div className="grid items-center grid-cols-2 sm:grid-cols-3 lg:grid-cols-3 gap-4">
+                <div className="grid items-center justify-items-center lg:justify-items-start grid-cols-2 sm:grid-cols-3 lg:grid-cols-3 gap-4">
                   <img
                     className="w-[140px] lg:mx-auto"
                     src={PanelImg}
@@ -64,68 +64,66 @@ const WebHosting = () => {
               </div>
             </div>
             {/* SECOND ROW */}
-            <div className="flex items-center pt-10 md:pt-14 lg:pt-20 xl:pt-28">
-              <div className="grid items-center justify-center grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8 w-full">
-                <div className="text-center">
-                  <img
-                    className="w-[100px] mx-auto"
-                    src={UptimeImg}
-                    alt="UptimeImg"
-                  />
-                  <h3 className="text-black font-poppins text-base font-bold pt-3">
-                    99.9% Uptime
-                  </h3>
-                  <p className="font-light text-black font-poppins text-[12px] sm:px-3 lg:px-6 pt-1">
-                    We Keep Your Web build Online 24x7x365. Downtime not only
-                    costs you lost visitors but also damages your reputation and
-                    search engine rankings.
-                  </p>
-                </div>
-                <div className="text-center">
-                  <img
-                    className="w-[100px] mx-auto"
-                    src={BlazingHosting}
-                    alt="BlazingHosting"
-                  />
-                  <h3 className="text-black font-poppins text-base font-bold pt-3">
-                    Blazing Fast Web Hosting
-                  </h3>
-                  <p className="font-light text-black font-poppins text-[12px] sm:px-3 lg:px-6 pt-1">
-                    We Keep Your Web build Online 24x7x365. Downtime not only
-                    costs you lost visitors but also damages your reputation and
-                    search engine rankings.
-                  </p>
-                </div>
-                <div className="text-center">
-                  <img
-                    className="w-[100px] mx-auto"
-                    src={SslCertificate}
-                    alt="SslCertificate"
-                  />
-                  <h3 className="text-black font-poppins text-base font-bold pt-3">
-                    Free SSL Certificates
-                  </h3>
-                  <p className="font-light text-black font-poppins text-[12px] sm:px-3 lg:px-6 pt-1">
-                    We Keep Your Web build Online 24x7x365. Downtime not only
-                    costs you lost visitors but also damages your reputation and
-                    search engine rankings.
-                  </p>
-                </div>
-                <div className="text-center">
-                  <img
-                    className="w-[100px] mx-auto"
-                    src={SupportImg}
-                    alt="SupportImg"
-                  />
-                  <h3 className="text-black font-poppins text-base font-bold pt-3">
-                    24x7 Friendly Support
-                  </h3>
-                  <p className="font-light text-black font-poppins text-[12px] sm:px-3 lg:px-6 pt-1">
-                    We Keep Your Web build Online 24x7x365. Downtime not only
-                    costs you lost visitors but also damages your reputation and
-                    search engine rankings.
-                  </p>
-                </div>
+            <div className="flex flex-wrap xl:flex-nowrap xl:justify-between items-center justify-center xl:px-10 w-full pt-10 md:pt-14 lg:pt-20 xl:pt-28">
+              <div className="px-4 lg:px-0 sm:mt-0 sm:w-1/2 lg:w-4/12 xl:w-3/12 text-center ">
+                <img
+                  className="w-[80px] md:w-[100px] mx-auto"
+                  src={UptimeImg}
+                  alt="UptimeImg"
+                />
+                <h3 className="text-black font-poppins text-base font-bold pt-3">
+                  99.9% Uptime
+                </h3>
+                <p className="font-light text-black font-poppins text-[12px] sm:px-3 lg:px-6 pt-1">
+                  We Keep Your Web build Online 24x7x365. Downtime not only
+                  costs you lost visitors but also damages your reputation and
+                  search engine rankings.
+                </p>
+              </div>
+              <div className="px-4 lg:px-0 mt-6 sm:mt-0 sm:w-1/2 lg:w-4/12 xl:w-3/12 text-center">
+                <img
+                  className="w-[80px] md:w-[100px] mx-auto"
+                  src={BlazingHosting}
+                  alt="BlazingHosting"
+                />
+                <h3 className="text-black font-poppins text-base font-bold pt-3">
+                  Blazing Fast Web Hosting
+                </h3>
+                <p className="font-light text-black font-poppins text-[12px] sm:px-3 lg:px-6 pt-1">
+                  We Keep Your Web build Online 24x7x365. Downtime not only
+                  costs you lost visitors but also damages your reputation and
+                  search engine rankings.
+                </p>
+              </div>
+              <div className="px-4 lg:px-0 mt-6 lg:mt-0 sm:w-1/2 lg:w-4/12 xl:w-3/12 text-center">
+                <img
+                  className="w-[80px] md:w-[100px] mx-auto"
+                  src={SslCertificate}
+                  alt="SslCertificate"
+                />
+                <h3 className="text-black font-poppins text-base font-bold pt-3">
+                  Free SSL Certificates
+                </h3>
+                <p className="font-light text-black font-poppins text-[12px] sm:px-3 lg:px-6 pt-1">
+                  We Keep Your Web build Online 24x7x365. Downtime not only
+                  costs you lost visitors but also damages your reputation and
+                  search engine rankings.
+                </p>
+              </div>
+              <div className="px-4 lg:px-0 mt-6  sm:w-1/2 lg:w-4/12 xl:w-3/12 text-center xl:mt-0">
+                <img
+                  className="w-[80px] md:w-[100px] mx-auto"
+                  src={SupportImg}
+                  alt="SupportImg"
+                />
+                <h3 className="text-black font-poppins text-base font-bold pt-3">
+                  24x7 Friendly Support
+                </h3>
+                <p className="font-light text-black font-poppins text-[12px] sm:px-3 lg:px-6 pt-1">
+                  We Keep Your Web build Online 24x7x365. Downtime not only
+                  costs you lost visitors but also damages your reputation and
+                  search engine rankings.
+                </p>
               </div>
             </div>
           </div>

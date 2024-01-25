@@ -1,8 +1,8 @@
 import React, { useState } from "react";
 import WebHostingGirl from "../assets/images/webp/webhosting_girl_img.webp";
-import LeftIconTrangel from "../assets/images/svg/img_left_icon_red.svg";
 import RightIconTop from "../assets/images/svg/mg_right_icon_top.svg";
 import RightIconBottom from "../assets/images/svg/img_right_icon_bottom.svg";
+import Webhosting2 from "../assets/images/webp/small_screen_girl_img.webp"
 const Hero = () => {
   const [activeTab, setActiveTab] = useState(1);
 
@@ -89,24 +89,24 @@ const Hero = () => {
             <div className="md:w-1/2">
               <div className="w-full pt-6 md:pt-0 relative">
                 <img
-                  className="w-[400px] mx-auto md:ms-auto md:mx-0 md:w-[400px] lg:w-[500px] xl:h-[504px] "
+                  className="w-[400px] mx-auto hidden sm:block md:ms-auto md:mx-0 md:w-[400px] lg:w-[527px] xl:h-[504px] "
                   src={WebHostingGirl}
                   alt="WebHostingGirl"
                 />
                 <img
-                  className="absolute bottom-[30%] left-[11%] hidden md:block
-                "
-                  src={LeftIconTrangel}
-                  alt="LeftIconTrangel"
+                  className="w-[400px] sm:hidden mx-auto md:ms-auto md:mx-0 md:w-[400px] lg:w-[527px] xl:h-[504px] "
+                  src={Webhosting2}
+                  alt="Webhosting2"
                 />
+
                 <img
-                  className="absolute hidden md:block top-[12%] right-[-25px]
+                  className="absolute w-8 lg-w-[42px] hidden sm:block top-[12%] sm:right-[18%] md:right-[-5px] lg:right-[-18px]
                 "
                   src={RightIconTop}
                   alt="RightIconTop"
                 />
                 <img
-                  className="absolute hidden md:block bottom-[41px] right-[-25px]
+                  className="absolute w-[40px] lg:w-[70px] hidden sm:block sm:right-[17%] bottom-[41px] md:right-[-5px] lg:right-[-25px]
                 "
                   src={RightIconBottom}
                   alt="RightIconBottom"

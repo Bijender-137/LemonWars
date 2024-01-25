@@ -15,9 +15,9 @@ const LemonWares = () => {
 
   return (
     <>
-      <div>
+      <div id="account">
         <div className="container">
-          <div className="xl:px-44 lg:px-20 pt-20 xl:pt-32">
+          <div className="xl:px-40 lg:px-12 pt-20 xl:pt-32">
             <div className="text-center">
               <h2 className="text-black font-semibold font-poppins fs_5xl lg:leading-[60px]">
                 Ready to get started with <span className="lg:block"></span>
@@ -50,8 +50,8 @@ const LemonWares = () => {
                         checked={isYearly}
                         onChange={handleToggleChange}
                       />
-                      <div class="block bg_red w-[90px] h-12 rounded-full"></div>
-                      <div class="dot absolute left-1 top-2 bg-white max-w-[30px] w-full h-[30px] rounded-full transition"></div>
+                      <div class="block bg_red w-[64px] sm:w-[90px] h-8 sm:h-12 rounded-full"></div>
+                      <div class="dot absolute left-1 top-[6px] sm:top-2 bg-white max-w-5 h-5 sm:max-w-[30px] w-full sm:h-[30px] rounded-full transition"></div>
                     </div>
                   </label>
                 </div>
@@ -97,85 +97,83 @@ const LemonWares = () => {
               </div>
             </div>
             {/* CARDS */}
-            <div className="flex justify-between lg:mt-18 sm:mt-10 md:mt-14 mt-8 xl:mt-20 pt-1">
-              <div className="grid justify-center w-full gap-8 lg:gap-5 xl:gap-24 grid-cols-1 sm:grid-cols-2  lg:grid-cols-3">
-                {/* MAP FUNCTION */}
-                {activeCards.map((data) => (
-                  <div key={data.Id}>
-                    <div className="border-[#C4C4C4] border-[1.5px] rounded-[15px] shadow-md pt-6 md:pt-[34px] pr-5 md:pr-[29px] pb-6 md:pb-12 pl-5 md:pl-[35px] max-w-[300px] mx-auto">
-                      <h2 className="font-poppins font-semibold lg:leading-6 fs_xl text-black">
-                        {data.heading}
-                      </h2>
-                      <p className="font-poppins text-[12px] text-black font-normal lg:leading-[18px] w-[237px] mt-2 md:mt-3">
-                        {data.description}
+            <div className="flex flex-wrap lg:flex-nowrap justify-center gap-6  lg:justify-between lg:mt-18 sm:mt-10 md:mt-14 mt-8 xl:mt-20 pt-1">
+              {/* MAP FUNCTION */}
+              {activeCards.map((data) => (
+                <div key={data.Id}>
+                  <div className="border-[#C4C4C4] border-[1.5px] rounded-[15px] shadow-md pt-6 md:pt-[34px] pr-5 md:pr-[29px] pb-6 md:pb-12 pl-5 md:pl-[35px] max-w-[300px] mx-auto">
+                    <h2 className="font-poppins font-semibold lg:leading-6 fs_xl text-black">
+                      {data.heading}
+                    </h2>
+                    <p className="font-poppins text-[12px] text-black font-normal lg:leading-[18px] w-[237px] mt-2 md:mt-3">
+                      {data.description}
+                    </p>
+                    <p className="font-semibold font-poppins fs_2xl text-black lg:leading-8 mt-3 md:mt-7">
+                      {data.pricing}
+                    </p>
+                    <p className="font-poppins text-[14px] font-light text-black pt-2 md:pt-3">
+                      {data.para}
+                    </p>
+                    <button className="lg:mt-8 mt-4 sm:mt-6 border-[2px] border-black bg-white rounded-[12px] w-full py-2 lg:leading-[30px] hover:border-transparent hover:bg-[#B00000] hover:text-white transition-all ease-linear duration-300">
+                      {data.button}
+                    </button>
+                    <div className="flex items-center mt-4 sm:mt-6 md:mt-[35px]">
+                      {data.cardImage}
+                      <p className="ms-6 font-inter font-bold color_gray md:leading-6">
+                        {data.subtitle}
                       </p>
-                      <p className="font-semibold font-poppins fs_2xl text-black lg:leading-8 mt-3 md:mt-7">
-                        {data.pricing}
+                    </div>
+                    <div className="flex items-center mt-3 sm:mt-4">
+                      {data.cardImage}
+                      <p className="ms-6 font-inter font-bold color_gray md:leading-6">
+                        {data.bandwidth}
                       </p>
-                      <p className="font-poppins text-[14px] font-light text-black pt-2 md:pt-3">
-                        {data.para}
+                    </div>
+                    <div className="flex items-center mt-3 sm:mt-4">
+                      {data.cardImage}
+                      <p className="ms-6 font-inter font-bold color_gray md:leading-6">
+                        {data.accounts}
                       </p>
-                      <button className="lg:mt-8 mt-4 sm:mt-6 border-[2px] border-black bg-white rounded-[12px] w-full py-2 lg:leading-[30px] hover:border-transparent hover:bg-[#B00000] hover:text-white transition-all ease-linear duration-300">
-                        {data.button}
-                      </button>
-                      <div className="flex items-center mt-4 sm:mt-6 md:mt-[35px]">
-                        {data.cardImage}
-                        <p className="ms-6 font-inter font-bold color_gray md:leading-6">
-                          {data.subtitle}
-                        </p>
-                      </div>
-                      <div className="flex items-center mt-3 sm:mt-4">
-                        {data.cardImage}
-                        <p className="ms-6 font-inter font-bold color_gray md:leading-6">
-                          {data.bandwidth}
-                        </p>
-                      </div>
-                      <div className="flex items-center mt-3 sm:mt-4">
-                        {data.cardImage}
-                        <p className="ms-6 font-inter font-bold color_gray md:leading-6">
-                          {data.accounts}
-                        </p>
-                      </div>
-                      <div className="flex items-center mt-3 sm:mt-4">
-                        {data.cardImage}
-                        <p className="ms-6 font-inter font-bold color_gray md:leading-6">
-                          {data.database}
-                        </p>
-                      </div>
-                      <div className="flex items-center mt-3 sm:mt-4">
-                        {data.cardImage}
-                        <p className="ms-6 font-inter font-bold color_gray md:leading-6">
-                          {data.subdomain}
-                        </p>
-                      </div>
-                      <div className="flex items-center mt-3 sm:mt-4">
-                        {data.cardImage}
-                        <p className="ms-6 font-inter font-bold color_gray md:leading-6">
-                          {data.parkdomain}
-                        </p>
-                      </div>
-                      <div className="flex items-center mt-3 sm:mt-4">
-                        {data.cardImage}
-                        <p className="ms-6 font-inter font-bold color_gray md:leading-6">
-                          {data.websites}
-                        </p>
-                      </div>
-                      <div className="flex items-center mt-3 sm:mt-4">
-                        {data.cardImage}
-                        <p className="ms-6 font-inter font-bold color_gray md:leading-6">
-                          {data.freessl}
-                        </p>
-                      </div>
-                      <div className="flex items-center mt-3 sm:mt-4">
-                        {data.cardImage}
-                        <p className="ms-6 font-inter font-bold color_gray md:leading-6">
-                          {data.softcolus}
-                        </p>
-                      </div>
+                    </div>
+                    <div className="flex items-center mt-3 sm:mt-4">
+                      {data.cardImage}
+                      <p className="ms-6 font-inter font-bold color_gray md:leading-6">
+                        {data.database}
+                      </p>
+                    </div>
+                    <div className="flex items-center mt-3 sm:mt-4">
+                      {data.cardImage}
+                      <p className="ms-6 font-inter font-bold color_gray md:leading-6">
+                        {data.subdomain}
+                      </p>
+                    </div>
+                    <div className="flex items-center mt-3 sm:mt-4">
+                      {data.cardImage}
+                      <p className="ms-6 font-inter font-bold color_gray md:leading-6">
+                        {data.parkdomain}
+                      </p>
+                    </div>
+                    <div className="flex items-center mt-3 sm:mt-4">
+                      {data.cardImage}
+                      <p className="ms-6 font-inter font-bold color_gray md:leading-6">
+                        {data.websites}
+                      </p>
+                    </div>
+                    <div className="flex items-center mt-3 sm:mt-4">
+                      {data.cardImage}
+                      <p className="ms-6 font-inter font-bold color_gray md:leading-6">
+                        {data.freessl}
+                      </p>
+                    </div>
+                    <div className="flex items-center mt-3 sm:mt-4">
+                      {data.cardImage}
+                      <p className="ms-6 font-inter font-bold color_gray md:leading-6">
+                        {data.softcolus}
+                      </p>
                     </div>
                   </div>
-                ))}
-              </div>
+                </div>
+              ))}
             </div>
           </div>
         </div>

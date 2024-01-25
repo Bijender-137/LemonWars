@@ -6,8 +6,8 @@ import RightIconBottom from "../assets/images/svg/img_right_icon_bottom.svg";
 const MakeWebsite = () => {
   return (
     <>
-      <div className="xl:pt-32 pt-20">
-        <div className="container xl:px-[90px] sm:px-6 sm:px-10">
+      <div id="contact" className="xl:pt-32 pt-20">
+        <div className="container xl:px-[90px] sm:px-6 md:px-20">
           <div className="bg-[#F7FAFE] py-12 lg:py-16 xl:py-20 relative rounded-[16px]">
             <img
               className="absolute bottom-24 left-[-15px] hidden sm:block"
@@ -24,7 +24,7 @@ const MakeWebsite = () => {
               src={RightIconBottom}
               alt="RightIconBottom"
             />
-            <h2 className="font-poppins font-semibold text-[#2e2e2e] lg:leading-[88px] fs_6xl text-center">
+            <h2 className="font-poppins font-semibold text-[#2e2e2e] lg:leading-[88px] fs_6xl text-center px-3">
               We're here to make your <span className="lg:block"></span> website
               awesome.
             </h2>
