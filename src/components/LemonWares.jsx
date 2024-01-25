@@ -13,9 +13,9 @@ const LemonWares = () => {
 
   return (
     <>
-      <div id="account">
+      <div id="account ">
         <div className="container">
-          <div className="xl:px-40 lg:px-12 pt-20 xl:pt-32">
+          <div className="xl:px-40 lg:px-12 pt-20 xl:pt-32 sm:px-4">
             <div className="text-center">
               <h2 className="text-black font-semibold font-poppins fs_5xl lg:leading-[60px]">
                 Ready to get started with <span className="lg:block"></span>
@@ -95,11 +95,11 @@ const LemonWares = () => {
               </div>
             </div>
             {/* CARDS */}
-            <div className="flex flex-wrap lg:flex-nowrap justify-center gap-6  lg:justify-between lg:mt-18 sm:mt-10 md:mt-14 mt-8 xl:mt-20 pt-1">
+            <div className="flex flex-wrap lg:flex-nowrap justify-center gap-7 md:gap-8 lg:gap-6  lg:justify-between lg:mt-18 sm:mt-10 md:mt-14 mt-8 xl:mt-20 pt-1">
               {/* MAP FUNCTION */}
               {activeCards.map((data) => (
                 <div key={data.Id}>
-                  <div className="border-[#C4C4C4] border-[1.5px] rounded-[15px] shadow-md pt-6 md:pt-[34px] pr-5 md:pr-[29px] pb-6 md:pb-12 pl-5 md:pl-[35px] max-w-[300px] mx-auto">
+                  <div className="border-[#C4C4C4] duration-200 hover:scale-105 border-[1.5px]  rounded-[15px] shadow-md pt-6 md:pt-[34px] pr-5 md:pr-[29px] pb-6 md:pb-12 pl-5 md:pl-[35px] max-w-[400px] mx-auto">
                     <h2 className="font-poppins font-semibold lg:leading-6 fs_xl text-black">
                       {data.heading}
                     </h2>

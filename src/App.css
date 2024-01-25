@@ -14,7 +14,7 @@ input:checked~.block {
 }
 
 .buttons_shadow {
-  box-shadow: 0px 0px 64px 0px rgba(176, 0, 0, 0.30) !important;
+  box-shadow: 0px 0px 34px 0px rgba(176, 0, 0, 0.30) !important;
 }
 
 .buttons:hover {
@@ -74,6 +74,9 @@ input:checked~.block {
 @media (max-width:1024px) {
   .overflow_hidden {
     overflow: hidden;
+  }
+  .buttons_shadow {
+    box-shadow: 0px 0px 64px 0px rgba(176, 0, 0, 0.30) !important;
   }
 }
 

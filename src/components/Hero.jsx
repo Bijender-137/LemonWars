@@ -12,8 +12,8 @@ const Hero = () => {
   return (
     <>
       <div className="container">
-        <div className="md:flex lg:pl-14 lg:pr-20 xl:pl-28 xl:pr-[126px] pt-10 md:pt-14 xl:pt-20">
-          <div className="md:w-1/2">
+        <div className="md:flex sm:px-4 md:px-0 lg:pl-14 lg:pr-20 xl:pl-28 xl:pr-[126px] pt-10 md:pt-14 xl:pt-20">
+          <div className="md:w-1/2 md:pe-4 h-[280px] sm:h-[320px]">
             <div className="flex items-center justify-center md:justify-normal gap-6 after:content-[''] after:w-[262px] after:absolute after:h-[2px] after:bg-[#E5E5E5] after:bottom-0 relative after:rounded-[10px]">
               <div
                 className={`cursor-pointer font-semibold text-[15px] font-poppins ${
@@ -85,9 +85,9 @@ const Hero = () => {
             </div>
           </div>
           <div className="md:w-1/2">
-            <div className="w-full pt-6 md:pt-0 relative">
+            <div className="w-full pt-8 md:pt-0 relative">
               <img
-                className="w-[400px] mx-auto hidden sm:block md:ms-auto md:mx-0 md:w-[400px] lg:w-[527px] xl:h-[504px] "
+                className="w-[400px] mx-auto hidden sm:block md:ms-auto md:mx-0 md:w-[390px] lg:w-[527px] xl:h-[504px] "
                 src={WebHostingGirl}
                 alt="WebHostingGirl"
               />

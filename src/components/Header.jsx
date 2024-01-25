@@ -24,7 +24,7 @@ const Header = () => {
                   <img
                     src={Pagelogo}
                     alt="Pagelogo"
-                    className="sm:max-w-[90px] sm:h-[60px] max-w-[70px] h-[50px]"
+                    className="md:max-w-[90px] md:h-[60px] sm:h-[40px] max-w-[50px] h-[40px]"
                   />
                 </a>
                 <ul className="hidden lg:flex">
@@ -120,7 +120,7 @@ const Header = () => {
                 </ul>
               </div>
               <div onClick={showUl} className="z-20 lg:hidden">
-                <h3 className="text-black text-3xl">
+                <h3 className="text-black text-4xl">
                   {head ? <BiMenu /> : <RxCross1 />}
                 </h3>
               </div>
