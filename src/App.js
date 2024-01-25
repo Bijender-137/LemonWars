@@ -19,7 +19,7 @@ function App() {
   return (
     <>
       <div className="overflow-hidden">
-        {/* <Preloader /> */}
+        <Preloader />
         <BackToTop />
         <Header />
         <Hero />

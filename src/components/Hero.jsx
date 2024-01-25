@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import WebHostingGirl from "../assets/images/webp/webhosting_girl_img.webp";
 import RightIconTop from "../assets/images/svg/mg_right_icon_top.svg";
 import RightIconBottom from "../assets/images/svg/img_right_icon_bottom.svg";
-import Webhosting2 from "../assets/images/webp/small_screen_girl_img.webp"
+import Webhosting2 from "../assets/images/webp/small_screen_girl_img.webp";
 const Hero = () => {
   const [activeTab, setActiveTab] = useState(1);
 
@@ -74,13 +74,13 @@ const Hero = () => {
               <div className="flex items-center justify-center md:justify-normal pt-5 md:pt-10 xl:pt-[60px]">
                 <button
                   type="button"
-                  className="text-[13px] sm:text-[14px] w-[160px] font-poppins font-normal text-black border border-black hover:bg-[#B00000] hover:border-transparent hover:text-white transition-all ease-linear duration-300 p-2 sm:p-3 rounded-[8px] buttons leading-[22px] "
+                  className="text-[13px] sm:text-[14px] w-[160px] font-poppins font-normal text-white border border-transparent bg-[#B00000] hover:border-black hover:bg-black transition-all ease-linear duration-300 p-2 sm:p-3 rounded-[8px] buttons_shadow leading-[22px] "
                 >
                   Create an Account
                 </button>
                 <button
                   type="button"
-                  className="text-[13px] sm:text-[14px] w-[160px] font-poppins font-normal text-black border border-black hover:bg-[#B00000] hover:border-transparent hover:text-white transition-all ease-linear duration-300 p-2 sm:p-3 rounded-[8px] leading-[22px] buttons ml-3 sm:ml-6"
+                  className="text-[13px] sm:text-[14px] w-[160px] font-poppins font-normal text-black border border-black hover:bg-black hover:border-transparent hover:color_red transition-all ease-linear duration-300 p-2 sm:p-3 rounded-[8px] leading-[22px] buttons ml-3 sm:ml-6 hover:text-white"
                 >
                   Choose your plan
                 </button>

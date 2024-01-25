@@ -4,31 +4,21 @@ export const Preloader = () => {
   setTimeout(() => {
     document.getElementById("none").classList.add("hidden");
     document.body.classList.remove("overflow-hidden");
-  }, 2500);
+  }, 3500);
 
   return (
     <div
       id="none"
-      className="min-h-screen w-100 top-0 start-0 h-full w-full fixed bg-black z-50"
+      className="min-h-screen w-100 top-0 start-0 h-full w-full fixed bg_red z-50"
     >
       <div className="flex justify-center items-center min-h-screen">
-        <span className="w-[50%] flex flex-col justify-center items-center ">
-          <img
-            src={Preloaderimg}
-            alt="Preloaderimg"
-            className="w-[50%] xl:block hidden"
-          />
-          <img
-            src={Preloaderimg}
-            alt="Preloaderimg"
-            className="w-full xl:hidden"
-          />
-          <div className="block ">
-            <p className="md:text-[80px] sm:text-[60px] text-[40px] lg:text-start text-center font-roboto font-bold text-white leading-[101%] overflow-hidden whitespace-nowrap w-0 typed">
-              Smart, Simple<span className="block text-center"> Software</span>
-            </p>
-          </div>
-        </span>
+        <div class="wrapper">
+          <svg className="preloader_text">
+            <text className=" font-poppins font-extrabold text-[40px] sm:text-[60px] md:text-[70px] lg:text-[80px]" x="50%" y="50%" dy=".35em" text-anchor="middle">
+              LEMON WARS
+            </text>
+          </svg>
+        </div>
       </div>
     </div>
   );

@@ -31,32 +31,32 @@ const WebHosting = () => {
               <div className="lg:w-1/2 w-full mt-6 xl:mt-4">
                 <div className="grid items-center justify-items-center lg:justify-items-start grid-cols-2 sm:grid-cols-3 lg:grid-cols-3 gap-4">
                   <img
-                    className="w-[140px] lg:mx-auto"
+                    className="w-[100px] h-6 sm:h-[30px] sm:w-[140px] lg:mx-auto"
                     src={PanelImg}
                     alt="PanelImg"
                   />
                   <img
-                    className="w-[125px] lg:mx-auto"
+                    className="sm:w-[125px] sm:h-[50px] h-10 w-[100px] lg:mx-auto"
                     src={SecuredImunify}
                     alt="SecuredImunify"
                   />
                   <img
-                    className="w-[125px] lg:mx-auto ps-1"
+                    className="sm:w-[125px] w-[100px] sm:h-[53px] h-10 lg:mx-auto ps-1"
                     src={LiteSpeed}
                     alt="LiteSpeed"
                   />
                   <img
-                    className="w-[172px] lg:mx-auto lg:mt-5"
+                    className="sm:w-[172px] w-[120px] sm:h-[92px] h-16 lg:mx-auto lg:mt-5"
                     src={SoftaColor}
                     alt="SoftaColor"
                   />
                   <img
-                    className="w-[168px] lg:mx-auto lg:mt-5"
+                    className="sm:w-[168px] w-[120px] sm:h-[56px] h-11 lg:mx-auto lg:mt-5"
                     src={WordPress}
                     alt="WordPress"
                   />
                   <img
-                    className="w-[143px] lg:mx-auto lg:mt-5"
+                    className="sm:w-[143px] w-[110px] h-[47px] lg:mx-auto lg:mt-5"
                     src={CloudFair}
                     alt="CloudFair"
                   />
@@ -66,7 +66,7 @@ const WebHosting = () => {
             {/* SECOND ROW */}
             <div className="flex flex-wrap xl:flex-nowrap xl:justify-between items-center justify-center xl:px-10 w-full pt-10 md:pt-14 lg:pt-20 xl:pt-28">
               <div className="px-4 lg:px-0 sm:mt-0 sm:w-1/2 lg:w-4/12 xl:w-3/12 text-center ">
-                <img
+                <img 
                   className="w-[80px] md:w-[100px] mx-auto"
                   src={UptimeImg}
                   alt="UptimeImg"

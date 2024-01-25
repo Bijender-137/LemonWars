@@ -11,7 +11,7 @@ const Footer = () => {
               <div className="xl:w-1/3">
                 <a href="#">
                   <img
-                    className="sm:max-w-[120px] max-w-[100px]"
+                    className="sm:max-w-[120px] h-16 sm:h-[80px] max-w-[100px]"
                     src={FooterLogo}
                     alt="footer_logo"
                   />
