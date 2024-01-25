@@ -85,7 +85,7 @@ const RealStories = () => {
                 CEO, JPNL
               </p>
             </div>
-            <div className="bg-white  sm:max-w-[500px] md:max-w-[350px]  sm:mx-auto md:mx-0 rounded-[8px] pt-4 lg:pt-10 pb-4 lg:pb-8 pr-6 lg:pr-8 lg:pl-16 pl-8 shadow-md mt-6 lg:mt-8 hover:shadow-xl transition-all ease-in-out duration-300">
+            <div className="bg-white sm:max-w-[500px] md:max-w-[350px]  sm:mx-auto md:mx-0 rounded-[8px] pt-4 lg:pt-10 pb-4 lg:pb-8 pr-6 lg:pr-8 lg:pl-16 pl-8 shadow-md mt-6 lg:mt-8 hover:shadow-xl transition-all ease-in-out duration-300">
               <img
                 className="max-w-[120px] h-[63px]"
                 src={BrandingImg}

@@ -2,6 +2,8 @@ import React from "react";
 import FooterLogo from "../assets/images/webp/footer_logo.webp";
 import { HeartIcon } from "./common/Icons";
 const Footer = () => {
+  const today = new Date();
+  const year = today.getFullYear();
   return (
     <>
       <div id="services" className="bg_red mt-20 xl:mt-28">
@@ -165,7 +167,7 @@ const Footer = () => {
               <span className="px-1">
                 <HeartIcon />
               </span>
-              in Lagos. Copyright 2021
+              in Lagos. Copyright {year}
             </p>
           </div>
         </div>
