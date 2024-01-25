@@ -13,13 +13,7 @@ export const Preloader = () => {
       <div className="flex justify-center items-center min-h-screen">
         <div class="wrapper">
           <svg className="preloader_text">
-            <text
-              className=" font-poppins font-extrabold text-[40px] sm:text-[60px] md:text-[70px] lg:text-[80px]"
-              x="50%"
-              y="50%"
-              dy=".35em"
-              text-anchor="middle"
-            >
+            <text className=" font-poppins font-extrabold text-[40px] sm:text-[60px] md:text-[70px] lg:text-[80px]" x="50%" y="50%" dy=".35em" text-anchor="middle">
               LEMON WARS
             </text>
           </svg>
