@@ -1,0 +1,86 @@
+[debug] [2024-01-25T12:17:27.318Z] ----------------------------------------------------------------------
+[debug] [2024-01-25T12:17:27.322Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\bijen\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2024-01-25T12:17:27.323Z] CLI Version:   13.0.3
+[debug] [2024-01-25T12:17:27.323Z] Platform:      win32
+[debug] [2024-01-25T12:17:27.323Z] Node Version:  v18.17.0
+[debug] [2024-01-25T12:17:27.325Z] Time:          Thu Jan 25 2024 17:47:27 GMT+0530 (India Standard Time)
+[debug] [2024-01-25T12:17:27.326Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2024-01-25T12:17:27.332Z] >>> [apiv2][query] GET https://firebase-public.firebaseio.com/cli.json [none]
+[debug] [2024-01-25T12:17:27.409Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2024-01-25T12:17:27.409Z] > authorizing via signed-in user (bijender.k1996@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\bijen\Desktop\lemonwares
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2024-01-25T12:17:34.759Z] > refreshing access token with scopes: []
+[debug] [2024-01-25T12:17:34.761Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2024-01-25T12:17:34.761Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2024-01-25T12:17:39.436Z] *** [apiv2] error from fetch(https://firebase-public.firebaseio.com/cli.json, {"headers":{},"method":"GET"}): FetchError: request to https://firebase-public.firebaseio.com/cli.json failed, reason: getaddrinfo ENOTFOUND firebase-public.firebaseio.com
+[warn] !  Unable to fetch the CLI MOTD and remote config. This is not a fatal error, but may indicate an issue with your network connection. 
+[debug] [2024-01-25T12:17:39.437Z] Failed to fetch MOTD FirebaseError: Failed to make request to https://firebase-public.firebaseio.com/cli.json
+[debug] [2024-01-25T12:18:07.856Z] ----------------------------------------------------------------------
+[debug] [2024-01-25T12:18:07.859Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\bijen\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2024-01-25T12:18:07.860Z] CLI Version:   13.0.3
+[debug] [2024-01-25T12:18:07.861Z] Platform:      win32
+[debug] [2024-01-25T12:18:07.861Z] Node Version:  v18.17.0
+[debug] [2024-01-25T12:18:07.863Z] Time:          Thu Jan 25 2024 17:48:07 GMT+0530 (India Standard Time)
+[debug] [2024-01-25T12:18:07.863Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2024-01-25T12:18:07.869Z] >>> [apiv2][query] GET https://firebase-public.firebaseio.com/cli.json [none]
+[debug] [2024-01-25T12:18:07.943Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2024-01-25T12:18:07.944Z] > authorizing via signed-in user (bijender.k1996@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\bijen\Desktop\lemonwares
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2024-01-25T12:18:15.133Z] > refreshing access token with scopes: []
+[debug] [2024-01-25T12:18:15.135Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2024-01-25T12:18:15.136Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2024-01-25T12:18:19.958Z] *** [apiv2] error from fetch(https://firebase-public.firebaseio.com/cli.json, {"headers":{},"method":"GET"}): FetchError: request to https://firebase-public.firebaseio.com/cli.json failed, reason: getaddrinfo ENOTFOUND firebase-public.firebaseio.com
+[warn] !  Unable to fetch the CLI MOTD and remote config. This is not a fatal error, but may indicate an issue with your network connection. 
+[debug] [2024-01-25T12:18:19.959Z] Failed to fetch MOTD FirebaseError: Failed to make request to https://firebase-public.firebaseio.com/cli.json
+[debug] [2024-01-25T12:18:22.092Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 200
+[debug] [2024-01-25T12:18:22.092Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2024-01-25T12:18:22.110Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects pageSize=100
+[debug] [2024-01-25T12:18:25.891Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects 200
+[debug] [2024-01-25T12:18:25.892Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects [omitted]
+[info] i  Using project lemonwares-75ab1 (lemonwares) 
+[info] 
+=== Hosting Setup
+[debug] [2024-01-25T12:18:32.097Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/lemonwares-75ab1 [none]
+[debug] [2024-01-25T12:18:59.259Z] *** [apiv2] error from fetch(https://firebase.googleapis.com/v1beta1/projects/lemonwares-75ab1, {"headers":{},"method":"GET","signal":{}}): FetchError: request to https://firebase.googleapis.com/v1beta1/projects/lemonwares-75ab1 failed, reason: socket hang up
+[debug] [2024-01-25T12:18:59.260Z] Failed to make request to https://firebase.googleapis.com/v1beta1/projects/lemonwares-75ab1 (original: request to https://firebase.googleapis.com/v1beta1/projects/lemonwares-75ab1 failed, reason: socket hang up)
+[debug] [2024-01-25T12:19:00.381Z] FirebaseError: Failed to make request to https://firebase.googleapis.com/v1beta1/projects/lemonwares-75ab1
+    at RetryOperation._fn (C:\Users\bijen\AppData\Roaming\npm\node_modules\firebase-tools\lib\apiv2.js:246:31)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[error] 
+[error] Error: Failed to get Firebase project lemonwares-75ab1. Please make sure the project exists and your account has permission to access it.
