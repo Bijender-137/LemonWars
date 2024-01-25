@@ -48,7 +48,7 @@ const LemonWares = () => {
                         checked={isYearly}
                         onChange={handleToggleChange}
                       />
-                      <div class="block bg_red w-[64px] sm:w-[90px] h-8 sm:h-12 rounded-full"></div>
+                      <div class="block bg_red w-[64px] sm:w-[93px] h-8 sm:h-12 rounded-full"></div>
                       <div class="dot absolute left-1 top-[6px] sm:top-2 bg-white max-w-5 h-5 sm:max-w-[30px] w-full sm:h-[30px] rounded-full transition"></div>
                     </div>
                   </label>
@@ -64,7 +64,7 @@ const LemonWares = () => {
                   >
                     Yearly
                   </p>
-                  <p className="text-black text-[10px] bg-[#FFE87A] rounded-[8px] ms-4 py-[6px] px-2">
+                  <p className="text-black font-poppins text-[10px] bg-[#FFE87A] rounded-[8px] ms-4 py-[5px] px-3">
                     20% discount
                   </p>
                 </div>

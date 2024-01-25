@@ -112,7 +112,7 @@ const Header = () => {
                       className="flex items-center"
                     >
                       <Mobile />
-                      <p className="text-black fs_xs font-poppins ps-[6px]">
+                      <p className="text-black font-semibold fs_xs font-poppins ps-[6px]">
                         +2349067322844
                       </p>
                     </a>
