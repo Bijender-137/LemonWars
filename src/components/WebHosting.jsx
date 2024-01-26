@@ -31,31 +31,37 @@ const WebHosting = () => {
               <div className="lg:w-1/2 w-full mt-6 xl:mt-4">
                 <div className="grid items-center justify-items-center lg:justify-items-start grid-cols-2 sm:grid-cols-3 lg:grid-cols-3 gap-4">
                   <img
+                    loading="lazy"
                     className="w-[100px] h-6 sm:h-[30px] sm:w-[140px] lg:mx-auto"
                     src={PanelImg}
                     alt="PanelImg"
                   />
                   <img
+                    loading="lazy"
                     className="sm:w-[125px] sm:h-[50px] h-10 w-[100px] lg:mx-auto"
                     src={SecuredImunify}
                     alt="SecuredImunify"
                   />
                   <img
+                    loading="lazy"
                     className="sm:w-[125px] w-[100px] sm:h-[53px] h-10 lg:mx-auto ps-1"
                     src={LiteSpeed}
                     alt="LiteSpeed"
                   />
                   <img
+                    loading="lazy"
                     className="sm:w-[172px] w-[120px] sm:h-[92px] h-16 lg:mx-auto lg:mt-5"
                     src={SoftaColor}
                     alt="SoftaColor"
                   />
                   <img
+                    loading="lazy"
                     className="sm:w-[168px] w-[120px] sm:h-[56px] h-11 lg:mx-auto lg:mt-5"
                     src={WordPress}
                     alt="WordPress"
                   />
                   <img
+                    loading="lazy"
                     className="sm:w-[143px] w-[110px] h-[47px] lg:mx-auto lg:mt-5"
                     src={CloudFair}
                     alt="CloudFair"
@@ -67,6 +73,7 @@ const WebHosting = () => {
             <div className="flex flex-wrap xl:flex-nowrap xl:justify-between items-center justify-center xl:px-10 w-full pt-10 md:pt-14 lg:pt-20 xl:pt-28">
               <div className="px-4 lg:px-0 sm:mt-0 w-[340px] sm:w-1/2 sm:px-8 lg:w-4/12 xl:w-3/12 duration-200 hover:scale-105 text-center ">
                 <img
+                  loading="lazy"
                   className="w-[80px] md:w-[100px] mx-auto"
                   src={UptimeImg}
                   alt="UptimeImg"
@@ -82,6 +89,7 @@ const WebHosting = () => {
               </div>
               <div className="px-4 lg:px-0 mt-6 sm:mt-0 w-[340px] sm:w-1/2 sm:px-8 lg:w-4/12 xl:w-3/12 duration-200 hover:scale-105 text-center">
                 <img
+                  loading="lazy"
                   className="w-[80px] md:w-[100px] mx-auto"
                   src={BlazingHosting}
                   alt="BlazingHosting"
@@ -97,6 +105,7 @@ const WebHosting = () => {
               </div>
               <div className="px-4 lg:px-0 mt-6 lg:mt-0 w-[340px] sm:w-1/2 sm:px-8 lg:w-4/12 xl:w-3/12 duration-200 hover:scale-105 text-center">
                 <img
+                  loading="lazy"
                   className="w-[80px] md:w-[100px] mx-auto"
                   src={SslCertificate}
                   alt="SslCertificate"
@@ -112,6 +121,7 @@ const WebHosting = () => {
               </div>
               <div className="px-4 lg:px-0 mt-6  w-[340px] sm:w-1/2 sm:px-8 lg:w-4/12 xl:w-3/12 duration-200 hover:scale-105 text-center xl:mt-0">
                 <img
+                  loading="lazy"
                   className="w-[80px] md:w-[100px] mx-auto"
                   src={SupportImg}
                   alt="SupportImg"

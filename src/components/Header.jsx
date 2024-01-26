@@ -21,7 +21,7 @@ const Header = () => {
             <div className="flex justify-between items-center lg:pl-14  lg:pr-20 xl:pl-28 xl:pr-44">
               <div className="flex items-center">
                 <a href="#">
-                  <img
+                  <img loading="lazy"
                     src={Pagelogo}
                     alt="Pagelogo"
                     className="md:max-w-[90px] md:h-[60px] sm:h-[40px] max-w-[50px] h-[40px]"

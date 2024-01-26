@@ -26,6 +26,7 @@ const RealStories = () => {
                   Customers
                 </h2>
                 <img
+                  loading="lazy"
                   className=" max-w-[50px] md:max-w-[80px] lg:max-w-[143px] top-0 left-[-25px] absolute md:top-[-20px] md:left-[-30px] lg:top-[-55px] lg:left-[-95px]"
                   src={QuateMark}
                   alt="QuateMark"
@@ -44,6 +45,7 @@ const RealStories = () => {
                     praesent elem
                   </p>
                   <img
+                    loading="lazy"
                     className="absolute top-0 left-[-25px]"
                     src={QuateGreenImg}
                     alt="QuateGreenImg"
@@ -61,6 +63,7 @@ const RealStories = () => {
           <div className="md:w-1/2 md:pl-[30px]">
             <div className="bg-white sm:max-w-[500px] sm:mx-auto md:mx-0 md:max-w-[455px] rounded-[8px] pt-4 lg:pt-10 pb-3 pr-6 xl:pr-8 lg:pl-16 pl-8 shadow-md mt-7 hover:shadow-xl transition-all ease-in-out duration-300">
               <img
+                loading="lazy"
                 className="max-w-[78px] h-[50px]"
                 src={JpnlImg}
                 alt="JpnlImg"
@@ -73,6 +76,7 @@ const RealStories = () => {
                   praesent elem
                 </p>
                 <img
+                  loading="lazy"
                   className="absolute top-0 left-[-25px]"
                   src={QuateGreenImg}
                   alt="QuateGreenImg"
@@ -87,6 +91,7 @@ const RealStories = () => {
             </div>
             <div className="bg-white sm:max-w-[500px] md:max-w-[350px]  sm:mx-auto md:mx-0 rounded-[8px] pt-4 lg:pt-10 pb-4 lg:pb-8 pr-6 lg:pr-8 lg:pl-16 pl-8 shadow-md mt-7 lg:mt-8 hover:shadow-xl transition-all ease-in-out duration-300">
               <img
+                loading="lazy"
                 className="max-w-[120px] h-[63px]"
                 src={BrandingImg}
                 alt="BrandingImg"
@@ -96,6 +101,7 @@ const RealStories = () => {
                   LemonWares saved our time in Hosting my company page.
                 </p>
                 <img
+                  loading="lazy"
                   className="absolute top-0 left-[-25px]"
                   src={QuateGreenImg}
                   alt="QuateGreenImg"
@@ -126,20 +132,38 @@ const RealStories = () => {
           <div className="lg:w-1/2 lg:pl-20 mt-6 lg:mt-0">
             <div className="grid items-center justify-items-center lg:justify-items-start w-full gap-6 lg:gap-8 xl:gap-14 grid-cols-2 sm:grid-cols-3 lg:grid-cols-3">
               <img
-                className="max-w-[120px]"
+                loading="lazy"
+                className="max-w-[100px] sm:max-w-[120px] h-[80px]"
                 src={JpnlLongImg}
                 alt="JpnlLongImg"
               />
-              <img className="max-w-[120px]" src={KoraneImg} alt="KoraneImg" />
-              <img className="max-w-[120px]" src={NadineImg} alt="NadineImg" />
               <img
-                className="max-w-[120px]"
+                loading="lazy"
+                className="max-w-[100px] sm:max-w-[120px] h-[42px]"
+                src={KoraneImg}
+                alt="KoraneImg"
+              />
+              <img
+                loading="lazy"
+                className="max-w-[100px] sm:max-w-[120px] h-[40px]"
+                src={NadineImg}
+                alt="NadineImg"
+              />
+              <img
+                loading="lazy"
+                className="max-w-[100px] sm:max-w-[120px] h-[35px]"
                 src={BrandingLongImg}
                 alt="BrandingLongImg"
               />
-              <img className="max-w-[120px]" src={JangoImg} alt="JangoImg" />
               <img
-                className="max-w-[120px]"
+                loading="lazy"
+                className="max-w-[100px] sm:max-w-[120px] h-[30px]"
+                src={JangoImg}
+                alt="JangoImg"
+              />
+              <img
+                loading="lazy"
+                className="max-w-[100px] sm:max-w-[120px] h-[50px]"
                 src={CliLongImg}
                 alt="CliLongImg"
               />

@@ -12,7 +12,7 @@ const Footer = () => {
             <div className="xl:flex">
               <div className="xl:w-1/3">
                 <a href="#">
-                  <img
+                  <img loading="lazy"
                     className="sm:max-w-[120px] h-14 sm:h-[80px] max-w-[80px]"
                     src={FooterLogo}
                     alt="footer_logo"
