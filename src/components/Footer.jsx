@@ -11,6 +11,7 @@ const Footer = () => {
           <div className="py-10 lg:pt-12 lg:pl-[60px]  lg:pb-12 xl:pt-16 xl:pl-[104px]  xl:pb-20">
             <div className="xl:flex">
               <div className="xl:w-1/3">
+                {/* FOOTER LOGO */}
                 <a href="#">
                   <img loading="lazy"
                     className="sm:max-w-[120px] h-14 sm:h-[80px] max-w-[80px]"
@@ -25,6 +26,7 @@ const Footer = () => {
                   praesent elem
                 </p>
               </div>
+              {/* FOOTER SERVICES */}
               <div className="xl:w-2/3 pt-4">
                 <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-4 gap-4 justify-between mt-6 xl:mt-0">
                   <div>

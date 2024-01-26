@@ -20,6 +20,7 @@ const Header = () => {
           <div className="container mx-auto">
             <div className="flex justify-between items-center lg:pl-14  lg:pr-20 xl:pl-28 xl:pr-44">
               <div className="flex items-center">
+                {/* NAV LOGO */}
                 <a href="#">
                   <img loading="lazy"
                     src={Pagelogo}
@@ -92,6 +93,7 @@ const Header = () => {
                 </ul>
               </div>
               <div>
+                {/* CONTACT LOGO */}
                 <ul className="items-center hidden lg:flex">
                   <li>
                     <a

@@ -20,6 +20,7 @@ const RealStories = () => {
         <div className="md:flex">
           <div className="md:w-1/2">
             <div className="md:flex flex-col items-end">
+              {/* REAL STORIES REAL CUSTOMERS */}
               <div className="relative z-10">
                 <h2 className="color_light_black font-inter fs_4xl font-extrabold xl:leading-[64px]">
                   Real Stories from <span className="md:block"></span> Real
@@ -60,6 +61,7 @@ const RealStories = () => {
               </div>
             </div>
           </div>
+          {/* CARDS */}
           <div className="md:w-1/2 md:pl-[30px]">
             <div className="bg-white sm:max-w-[500px] sm:mx-auto md:mx-0 md:max-w-[455px] rounded-[8px] pt-4 lg:pt-10 pb-3 pr-6 xl:pr-8 lg:pl-16 pl-8 shadow-md mt-7 hover:shadow-xl transition-all ease-in-out duration-300">
               <img
@@ -128,7 +130,7 @@ const RealStories = () => {
               on track.
             </p>
           </div>
-
+          {/* NIGERIAN WEBSITES */}
           <div className="lg:w-1/2 lg:pl-20 mt-6 lg:mt-0">
             <div className="grid items-center justify-items-center lg:justify-items-start w-full gap-6 lg:gap-8 xl:gap-14 grid-cols-2 sm:grid-cols-3 lg:grid-cols-3">
               <img

@@ -84,6 +84,7 @@ const Hero = () => {
               </button>
             </div>
           </div>
+          {/* WEB HOSTING GIRL */}
           <div className="md:w-1/2">
             <div className="w-full pt-8 md:pt-0 relative">
               <img loading="lazy"
@@ -92,7 +93,7 @@ const Hero = () => {
                 alt="WebHostingGirl"
               />
               <img loading="lazy"
-                className="w-[400px] sm:hidden mx-auto md:ms-auto md:mx-0 md:w-[400px] lg:w-[527px] xl:h-[504px] "
+                className="w-[400px] h-[300px] sm:hidden mx-auto md:ms-auto md:mx-0 md:w-[400px] lg:w-[527px] xl:h-[504px] "
                 src={Webhosting2}
                 alt="Webhosting2"
               />

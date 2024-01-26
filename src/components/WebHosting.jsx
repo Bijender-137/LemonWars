@@ -16,6 +16,7 @@ const WebHosting = () => {
         <div className="container">
           <div className="lg:pl-14 lg:pr-16 xl:pl-18 xl:pr-[70px] pt-20 pb-1">
             <div className="lg:flex pb-2">
+              {/*CLOUD WEB HOSTING  */}
               <div className="lg:w-1/2 text-center lg:text-start lg:pe-4 xl:pe-0">
                 <h2 className="font-extrabold font-poppins color_light_black fs_4xl xl:leading-[64px]">
                   True Cloud Web Hosting
@@ -28,6 +29,7 @@ const WebHosting = () => {
                   scalable.
                 </p>
               </div>
+              {/* WEB HOSTING IMAGES */}
               <div className="lg:w-1/2 w-full mt-6 xl:mt-4">
                 <div className="grid items-center justify-items-center lg:justify-items-start grid-cols-2 sm:grid-cols-3 lg:grid-cols-3 gap-4">
                   <img
@@ -69,7 +71,7 @@ const WebHosting = () => {
                 </div>
               </div>
             </div>
-            {/* SECOND ROW */}
+            {/* HOSTING SERVICES */}
             <div className="flex flex-wrap xl:flex-nowrap xl:justify-between items-center justify-center xl:px-10 w-full pt-10 md:pt-14 lg:pt-20 xl:pt-28">
               <div className="px-4 lg:px-0 sm:mt-0 w-[340px] sm:w-1/2 sm:px-8 lg:w-4/12 xl:w-3/12 duration-200 hover:scale-105 text-center ">
                 <img
