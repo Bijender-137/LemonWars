@@ -34,7 +34,7 @@ const RealStories = () => {
                   Get inspired by these stories.
                 </p>
               </div>
-              <div className="bg-white sm:max-w-[500px] sm:mx-auto md:mx-0 md:max-w-[350px] rounded-[8px] pt-4 pb-4 md:pb-10 lg:pb-16 xl:pb-24  pr-6 xl:pr-8 pl-8 xl:pl-16 shadow-md mt-6 hover:shadow-xl transition-all ease-in-out duration-300">
+              <div className="bg-white sm:max-w-[500px] sm:mx-auto md:mx-0 md:max-w-[350px] rounded-[8px] pt-4 pb-4 md:pb-10 lg:pb-16 xl:pb-24 pr-6 xl:pr-8 pl-8 xl:pl-16 shadow-md mt-7 hover:shadow-xl transition-all ease-in-out duration-300">
                 <img className="max-w-[120px]" src={CliImg} alt="CliImg" />
                 <div className="relative">
                   <p className="font-inter fs_xs text-black font-normal lg:leading-8 mt-4">
@@ -59,7 +59,7 @@ const RealStories = () => {
             </div>
           </div>
           <div className="md:w-1/2 md:pl-[30px]">
-            <div className="bg-white sm:max-w-[500px] sm:mx-auto md:mx-0 md:max-w-[455px] rounded-[8px] pt-4 lg:pt-10 pb-3 pr-6 xl:pr-8 lg:pl-16 pl-8 shadow-md mt-6 hover:shadow-xl transition-all ease-in-out duration-300">
+            <div className="bg-white sm:max-w-[500px] sm:mx-auto md:mx-0 md:max-w-[455px] rounded-[8px] pt-4 lg:pt-10 pb-3 pr-6 xl:pr-8 lg:pl-16 pl-8 shadow-md mt-7 hover:shadow-xl transition-all ease-in-out duration-300">
               <img
                 className="max-w-[78px] h-[50px]"
                 src={JpnlImg}
@@ -85,7 +85,7 @@ const RealStories = () => {
                 CEO, JPNL
               </p>
             </div>
-            <div className="bg-white sm:max-w-[500px] md:max-w-[350px]  sm:mx-auto md:mx-0 rounded-[8px] pt-4 lg:pt-10 pb-4 lg:pb-8 pr-6 lg:pr-8 lg:pl-16 pl-8 shadow-md mt-6 lg:mt-8 hover:shadow-xl transition-all ease-in-out duration-300">
+            <div className="bg-white sm:max-w-[500px] md:max-w-[350px]  sm:mx-auto md:mx-0 rounded-[8px] pt-4 lg:pt-10 pb-4 lg:pb-8 pr-6 lg:pr-8 lg:pl-16 pl-8 shadow-md mt-7 lg:mt-8 hover:shadow-xl transition-all ease-in-out duration-300">
               <img
                 className="max-w-[120px] h-[63px]"
                 src={BrandingImg}
@@ -110,7 +110,7 @@ const RealStories = () => {
             </div>
           </div>
         </div>
-        {/* SECOND ROW IN THIS SECTION */}
+        {/* We serve over 100 Nigerian Websites */}
         <div className="xl:mt-24 mt-12 lg:mt-16 pt-2 lg:flex justify-between">
           <div className="lg:w-1/2 text-center lg:text-start">
             <h2 className="font-inter fs_4xl color_light_black font-extrabold lg:leading-[64px]">

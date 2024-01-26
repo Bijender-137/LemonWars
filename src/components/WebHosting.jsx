@@ -14,13 +14,13 @@ const WebHosting = () => {
     <>
       <div id="about">
         <div className="container">
-          <div className="lg:pl-14 px-4 lg:px-0 lg:pr-16 xl:pl-18 xl:pr-[70px] pt-20 pb-1">
+          <div className="lg:pl-14 lg:pr-16 xl:pl-18 xl:pr-[70px] pt-20 pb-1">
             <div className="lg:flex pb-2">
               <div className="lg:w-1/2 text-center lg:text-start lg:pe-4 xl:pe-0">
                 <h2 className="font-extrabold font-poppins color_light_black fs_4xl xl:leading-[64px]">
                   True Cloud Web Hosting
                 </h2>
-                <p className="fs_sm font-inter font-normal  color_light_black lg:max-w-[575px] xl:leading-[32px] pt-4 xl:pt-6">
+                <p className="fs_sm font-inter font-normal sm:px-2 lg:px-0 color_light_black lg:max-w-[575px] xl:leading-[32px] pt-4 xl:pt-6">
                   True Cloud Web Hosting. All of the hosting packages we offer
                   are deployed instantly on our SSD powered cloud. We don’t use
                   dedicated servers that operate on single pieces of hardware.

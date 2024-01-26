@@ -47,7 +47,7 @@ const Header = () => {
                   <li className="lg:hidden">
                     <a
                       href="#services"
-                      className="text-[15px] font-semibold text-black font-poppins after:content-[''] after:w-0 transition-all ease-linear after:duration-500 after:absolute after:h-[2px] after:bg-[#B00000] after:start-[50%] hover:after:w-[80%] hover:after:start-[10%] overflow-hidden relative after:top-6 after:rounded-[10px]"
+                      className="text-[20px] sm:text-[24px] lg:text-[15px] md font-semibold text-black font-poppins after:content-[''] after:w-0 transition-all ease-linear after:duration-500 after:absolute after:h-[2px] after:bg-[#B00000] after:start-[50%] hover:after:w-[80%] hover:after:start-[10%] overflow-hidden relative after:top-6 after:rounded-[10px]"
                       onClick={showUl}
                     >
                       Our Services
@@ -56,7 +56,7 @@ const Header = () => {
                   <li>
                     <a
                       href="#about"
-                      className="text-black text-[15px] font-semibold font-poppins after:content-[''] after:w-0 transition-all ease-linear after:duration-500 after:absolute after:h-[2px] after:bg-[#B00000] after:start-[50%] hover:after:w-[80%] hover:after:start-[10%] overflow-hidden relative after:top-6 after:rounded-[10px]"
+                      className="text-black text-[20px] sm:text-[24px] lg:text-[15px] md font-semibold font-poppins after:content-[''] after:w-0 transition-all ease-linear after:duration-500 after:absolute after:h-[2px] after:bg-[#B00000] after:start-[50%] hover:after:w-[80%] hover:after:start-[10%] overflow-hidden relative after:top-6 after:rounded-[10px]"
                       onClick={showUl}
                     >
                       About
@@ -64,7 +64,7 @@ const Header = () => {
                   </li>
                   <li>
                     <a
-                      className="text-black text-[15px] font-semibold font-poppins after:content-[''] after:w-0 transition-all ease-linear after:duration-500 after:absolute after:h-[2px] after:bg-[#B00000] after:start-[50%] hover:after:w-[80%] hover:after:start-[10%] overflow-hidden relative after:top-6 after:rounded-[10px]"
+                      className="text-black text-[20px] sm:text-[24px] lg:text-[15px] md font-semibold font-poppins after:content-[''] after:w-0 transition-all ease-linear after:duration-500 after:absolute after:h-[2px] after:bg-[#B00000] after:start-[50%] hover:after:w-[80%] hover:after:start-[10%] overflow-hidden relative after:top-6 after:rounded-[10px]"
                       href="#blogs"
                       onClick={showUl}
                     >
@@ -73,7 +73,7 @@ const Header = () => {
                   </li>
                   <li>
                     <a
-                      className="text-black text-[15px] font-semibold font-poppins after:content-[''] after:w-0 transition-all ease-linear after:duration-500 after:absolute after:h-[2px] after:bg-[#B00000] after:start-[50%] hover:after:w-[80%] hover:after:start-[10%] overflow-hidden relative after:top-6 after:rounded-[10px]"
+                      className="text-black text-[20px] sm:text-[24px] lg:text-[15px] md font-semibold font-poppins after:content-[''] after:w-0 transition-all ease-linear after:duration-500 after:absolute after:h-[2px] after:bg-[#B00000] after:start-[50%] hover:after:w-[80%] hover:after:start-[10%] overflow-hidden relative after:top-6 after:rounded-[10px]"
                       href="#contact"
                       onClick={showUl}
                     >
@@ -82,7 +82,7 @@ const Header = () => {
                   </li>
                   <li className="lg:hidden">
                     <a
-                      className="text-black text-[15px] font-semibold font-poppins after:content-[''] after:w-0 transition-all ease-linear after:duration-500 after:absolute after:h-[2px] after:bg-[#B00000] after:start-[50%] hover:after:w-[80%] hover:after:start-[10%] overflow-hidden relative after:top-6 after:rounded-[10px]"
+                      className="text-black text-[20px] sm:text-[24px] lg:text-[15px] md font-semibold font-poppins after:content-[''] after:w-0 transition-all ease-linear after:duration-500 after:absolute after:h-[2px] after:bg-[#B00000] after:start-[50%] hover:after:w-[80%] hover:after:start-[10%] overflow-hidden relative after:top-6 after:rounded-[10px]"
                       href="#account"
                       onClick={showUl}
                     >
