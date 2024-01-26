@@ -3,7 +3,7 @@ export const Preloader = () => {
   setTimeout(() => {
     document.getElementById("none").classList.add("hidden");
     document.body.classList.remove("overflow-hidden");
-  }, 3500);
+  }, 3000);
 
   return (
     <div
