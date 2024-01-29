@@ -95,7 +95,7 @@ const LemonWares = () => {
               </div>
             </div>
             {/* CARDS */}
-            <div className="flex flex-wrap lg:px-4 xl:gap-16 lg:flex-nowrap justify-center gap-7 md:gap-8 lg:gap-4  lg:justify-between lg:mt-18 sm:mt-10 md:mt-14 mt-8 xl:mt-20 pt-1">
+            <div className="flex flex-wrap xl:gap-16 lg:flex-nowrap justify-center gap-7 md:gap-8 lg:gap-4 lg:justify-between lg:mt-18 sm:mt-10 md:mt-14 mt-8 xl:mt-20 pt-1">
               {/* MAP FUNCTION */}
               {activeCards.map((data) => (
                 <div key={data.Id}>
