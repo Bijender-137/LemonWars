@@ -147,7 +147,7 @@ const RealStories = () => {
               />
               <img
                 loading="lazy"
-                className="max-w-[100px] sm:max-w-[120px] sm:h-[40px]"
+                className="max-w-[100px] sm:max-w-[120px] xl:h-[30px]"
                 src={NadineImg}
                 alt="NadineImg"
               />
