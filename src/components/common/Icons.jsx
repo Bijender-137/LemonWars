@@ -1,4 +1,4 @@
-export const Mobile = () => {
+export const MobileIcon = () => {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
@@ -56,7 +56,7 @@ export const HeartIcon = () => {
     </svg>
   );
 };
-export const Whatsapp = () => {
+export const WhatsappIcon = () => {
   return (
     <svg
       width="25"

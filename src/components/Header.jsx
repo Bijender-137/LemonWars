@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import Pagelogo from "../assets/images/webp/page_logo.webp";
 import { RxCross1 } from "react-icons/rx";
 import { BiMenu } from "react-icons/bi";
-import { Mobile } from "./common/Icons";
+import { MobileIcon } from "./common/Icons";
 const Header = () => {
   const [head, sethead] = useState(true);
   function showUl() {
@@ -16,7 +16,7 @@ const Header = () => {
   return (
     <>
       <div>
-        <nav className="pt-6 lg:pt-10">
+        <nav className="pt-6 xl:pt-10">
           <div className="container mx-auto">
             <div className="flex justify-between items-center lg:pl-14  lg:pr-20 xl:pl-28 xl:pr-44">
               <div className="flex items-center">
@@ -113,10 +113,10 @@ const Header = () => {
                       href="tel:+2349067322844"
                       className="flex items-center"
                     >
-                      <Mobile />
-                      <p className="text-black font-semibold fs_xs font-poppins ps-[6px]">
+                      <MobileIcon />
+                      <span className="text-black font-semibold fs_xs font-poppins ps-[6px]">
                         +2349067322844
-                      </p>
+                      </span>
                     </a>
                   </li>
                 </ul>

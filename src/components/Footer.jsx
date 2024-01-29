@@ -8,7 +8,7 @@ const Footer = () => {
     <>
       <div id="services" className="bg_red mt-20 xl:mt-28">
         <div className="container">
-          <div className="py-10 lg:pt-12 lg:pl-[60px]  lg:pb-12 xl:pt-16 xl:pl-[104px]  xl:pb-20">
+          <div className="py-10 lg:py-12 lg:pl-[60px] xl:pt-16 xl:pl-[104px]  xl:pb-20">
             <div className="xl:flex">
               <div className="xl:w-1/3">
                 {/* FOOTER LOGO */}
@@ -19,7 +19,7 @@ const Footer = () => {
                     alt="footer_logo"
                   />
                 </a>
-                <p className="font-inter font-normal lg:leading-8 color_light_e6 lg:max-w-[700px] xl:max-w-[296px] mt-4">
+                <p className="font-inter font-normal lg:leading-8 color_gray_white lg:max-w-[700px] xl:max-w-[296px] mt-4">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit ut
                   aliquam, purus sit amet luctus venenatis, lectus magna
                   fringilla urna, porttitor rhoncus dolor purus non enim
@@ -35,34 +35,34 @@ const Footer = () => {
                         Service
                       </li>
                     </ul>
-                    <li className="lg:mt-6 mt-4">
+                    <li className="xl:mt-6 mt-4">
                       <a
                         href="#"
-                        className="fs_xs color_light_e6 font-normal font-inter lg:leading-8 after:content-[''] after:w-0 transition-all ease-linear after:duration-500 after:absolute after:h-[2px] after:bg-[#DEEAF9] after:start-[50%] hover:after:w-full hover:after:start-0 overflow-hidden relative after:top-5 after:rounded-full"
+                        className="fs_xs color_gray_white font-normal font-inter lg:leading-8 after:content-[''] after:w-0 transition-all ease-linear after:duration-500 after:absolute after:h-[2px] after:bg-[#DEEAF9] after:start-[50%] hover:after:w-full hover:after:start-0 overflow-hidden relative after:top-5 after:rounded-full"
                       >
                         Domain
                       </a>
                     </li>
-                    <li className="lg:mt-6 mt-3">
+                    <li className="xl:mt-6 mt-3">
                       <a
                         href="#"
-                        className="fs_xs color_light_e6 font-normal font-inter lg:leading-8 after:content-[''] after:w-0 transition-all ease-linear after:duration-500 after:absolute after:h-[2px] after:bg-[#DEEAF9] after:start-[50%] hover:after:w-full hover:after:start-0 overflow-hidden relative after:top-5 after:rounded-full"
+                        className="fs_xs color_gray_white font-normal font-inter lg:leading-8 after:content-[''] after:w-0 transition-all ease-linear after:duration-500 after:absolute after:h-[2px] after:bg-[#DEEAF9] after:start-[50%] hover:after:w-full hover:after:start-0 overflow-hidden relative after:top-5 after:rounded-full"
                       >
                         Shared Hosting
                       </a>
                     </li>
-                    <li className="lg:mt-6 mt-3">
+                    <li className="xl:mt-6 mt-3">
                       <a
                         href="#"
-                        className="fs_xs color_light_e6 font-normal font-inter lg:leading-8 after:content-[''] after:w-0 transition-all ease-linear after:duration-500 after:absolute after:h-[2px] after:bg-[#DEEAF9] after:start-[50%] hover:after:w-full hover:after:start-0 overflow-hidden relative after:top-5 after:rounded-full"
+                        className="fs_xs color_gray_white font-normal font-inter lg:leading-8 after:content-[''] after:w-0 transition-all ease-linear after:duration-500 after:absolute after:h-[2px] after:bg-[#DEEAF9] after:start-[50%] hover:after:w-full hover:after:start-0 overflow-hidden relative after:top-5 after:rounded-full"
                       >
                         Cloud Hosting
                       </a>
                     </li>
-                    <li className="lg:mt-6 mt-3">
+                    <li className="xl:mt-6 mt-3">
                       <a
                         href="#"
-                        className="fs_xs color_light_e6 font-normal font-inter lg:leading-8 after:content-[''] after:w-0 transition-all ease-linear after:duration-500 after:absolute after:h-[2px] after:bg-[#DEEAF9] after:start-[50%] hover:after:w-full hover:after:start-0 overflow-hidden relative after:top-5 after:rounded-full"
+                        className="fs_xs color_gray_white font-normal font-inter lg:leading-8 after:content-[''] after:w-0 transition-all ease-linear after:duration-500 after:absolute after:h-[2px] after:bg-[#DEEAF9] after:start-[50%] hover:after:w-full hover:after:start-0 overflow-hidden relative after:top-5 after:rounded-full"
                       >
                         Private Hosting
                       </a>
@@ -74,34 +74,34 @@ const Footer = () => {
                         Hosting
                       </li>
                     </ul>
-                    <li className="lg:mt-6 mt-4">
+                    <li className="xl:mt-6 mt-4">
                       <a
                         href="#"
-                        className="fs_xs color_light_e6 font-normal font-inter lg:leading-8 after:content-[''] after:w-0 transition-all ease-linear after:duration-500 after:absolute after:h-[2px] after:bg-[#DEEAF9] after:start-[50%] hover:after:w-full hover:after:start-0 overflow-hidden relative after:top-5 after:rounded-full"
+                        className="fs_xs color_gray_white font-normal font-inter lg:leading-8 after:content-[''] after:w-0 transition-all ease-linear after:duration-500 after:absolute after:h-[2px] after:bg-[#DEEAF9] after:start-[50%] hover:after:w-full hover:after:start-0 overflow-hidden relative after:top-5 after:rounded-full"
                       >
                         Cheap Hosting
                       </a>
                     </li>
-                    <li className="lg:mt-6 mt-3">
+                    <li className="xl:mt-6 mt-3">
                       <a
                         href="#"
-                        className="fs_xs color_light_e6 font-normal font-inter lg:leading-8 after:content-[''] after:w-0 transition-all ease-linear after:duration-500 after:absolute after:h-[2px] after:bg-[#DEEAF9] after:start-[50%] hover:after:w-full hover:after:start-0 overflow-hidden relative after:top-5 after:rounded-full"
+                        className="fs_xs color_gray_white font-normal font-inter lg:leading-8 after:content-[''] after:w-0 transition-all ease-linear after:duration-500 after:absolute after:h-[2px] after:bg-[#DEEAF9] after:start-[50%] hover:after:w-full hover:after:start-0 overflow-hidden relative after:top-5 after:rounded-full"
                       >
                         Hosting Wordpress
                       </a>
                     </li>
-                    <li className="lg:mt-6 mt-3">
+                    <li className="xl:mt-6 mt-3">
                       <a
                         href="#"
-                        className="fs_xs color_light_e6 font-normal font-inter lg:leading-8 after:content-[''] after:w-0 transition-all ease-linear after:duration-500 after:absolute after:h-[2px] after:bg-[#DEEAF9] after:start-[50%] hover:after:w-full hover:after:start-0 overflow-hidden relative after:top-5 after:rounded-full"
+                        className="fs_xs color_gray_white font-normal font-inter lg:leading-8 after:content-[''] after:w-0 transition-all ease-linear after:duration-500 after:absolute after:h-[2px] after:bg-[#DEEAF9] after:start-[50%] hover:after:w-full hover:after:start-0 overflow-hidden relative after:top-5 after:rounded-full"
                       >
                         Email Hosting
                       </a>
                     </li>
-                    <li className="lg:mt-6 mt-3">
+                    <li className="xl:mt-6 mt-3">
                       <a
                         href="#"
-                        className="fs_xs color_light_e6 font-normal font-inter lg:leading-8 after:content-[''] after:w-0 transition-all ease-linear after:duration-500 after:absolute after:h-[2px] after:bg-[#DEEAF9] after:start-[50%] hover:after:w-full hover:after:start-0 overflow-hidden relative after:top-5 after:rounded-full"
+                        className="fs_xs color_gray_white font-normal font-inter lg:leading-8 after:content-[''] after:w-0 transition-all ease-linear after:duration-500 after:absolute after:h-[2px] after:bg-[#DEEAF9] after:start-[50%] hover:after:w-full hover:after:start-0 overflow-hidden relative after:top-5 after:rounded-full"
                       >
                         Hosting Unlimited
                       </a>
@@ -113,26 +113,26 @@ const Footer = () => {
                         Company
                       </li>
                     </ul>
-                    <li className="lg:mt-6 mt-4">
+                    <li className="xl:mt-6 mt-4">
                       <a
                         href="#"
-                        className="fs_xs color_light_e6 font-normal font-inter lg:leading-8 after:content-[''] after:w-0 transition-all ease-linear after:duration-500 after:absolute after:h-[2px] after:bg-[#DEEAF9] after:start-[50%] hover:after:w-full hover:after:start-0 overflow-hidden relative after:top-5 after:rounded-full"
+                        className="fs_xs color_gray_white font-normal font-inter lg:leading-8 after:content-[''] after:w-0 transition-all ease-linear after:duration-500 after:absolute after:h-[2px] after:bg-[#DEEAF9] after:start-[50%] hover:after:w-full hover:after:start-0 overflow-hidden relative after:top-5 after:rounded-full"
                       >
                         About
                       </a>
                     </li>
-                    <li className="lg:mt-6 mt-3">
+                    <li className="xl:mt-6 mt-3">
                       <a
                         href="#"
-                        className="fs_xs color_light_e6 font-normal font-inter lg:leading-8 after:content-[''] after:w-0 transition-all ease-linear after:duration-500 after:absolute after:h-[2px] after:bg-[#DEEAF9] after:start-[50%] hover:after:w-full hover:after:start-0 overflow-hidden relative after:top-5 after:rounded-full"
+                        className="fs_xs color_gray_white font-normal font-inter lg:leading-8 after:content-[''] after:w-0 transition-all ease-linear after:duration-500 after:absolute after:h-[2px] after:bg-[#DEEAF9] after:start-[50%] hover:after:w-full hover:after:start-0 overflow-hidden relative after:top-5 after:rounded-full"
                       >
                         Career
                       </a>
                     </li>
-                    <li className="lg:mt-6 mt-3">
+                    <li className="xl:mt-6 mt-3">
                       <a
                         href="#"
-                        className="fs_xs color_light_e6 font-normal font-inter lg:leading-8 after:content-[''] after:w-0 transition-all ease-linear after:duration-500 after:absolute after:h-[2px] after:bg-[#DEEAF9] after:start-[50%] hover:after:w-full hover:after:start-0 overflow-hidden relative after:top-5 after:rounded-full"
+                        className="fs_xs color_gray_white font-normal font-inter lg:leading-8 after:content-[''] after:w-0 transition-all ease-linear after:duration-500 after:absolute after:h-[2px] after:bg-[#DEEAF9] after:start-[50%] hover:after:w-full hover:after:start-0 overflow-hidden relative after:top-5 after:rounded-full"
                       >
                         Contact Us
                       </a>
@@ -144,18 +144,18 @@ const Footer = () => {
                         Help
                       </li>
                     </ul>
-                    <li className="lg:mt-6 mt-4">
+                    <li className="xl:mt-6 mt-4">
                       <a
                         href="#"
-                        className="fs_xs color_light_e6 font-normal font-inter lg:leading-8 after:content-[''] after:w-0 transition-all ease-linear after:duration-500 after:absolute after:h-[2px] after:bg-[#DEEAF9] after:start-[50%] hover:after:w-full hover:after:start-0 overflow-hidden relative after:top-5 after:rounded-full"
+                        className="fs_xs color_gray_white font-normal font-inter lg:leading-8 after:content-[''] after:w-0 transition-all ease-linear after:duration-500 after:absolute after:h-[2px] after:bg-[#DEEAF9] after:start-[50%] hover:after:w-full hover:after:start-0 overflow-hidden relative after:top-5 after:rounded-full"
                       >
                         FAQ
                       </a>
                     </li>
-                    <li className="lg:mt-6 mt-3">
+                    <li className="xl:mt-6 mt-3">
                       <a
                         href="#"
-                        className="fs_xs color_light_e6 font-normal font-inter lg:leading-8 after:content-[''] after:w-0 transition-all ease-linear after:duration-500 after:absolute after:h-[2px] after:bg-[#DEEAF9] after:start-[50%] hover:after:w-full hover:after:start-0 overflow-hidden relative after:top-5 after:rounded-full"
+                        className="fs_xs color_gray_white font-normal font-inter lg:leading-8 after:content-[''] after:w-0 transition-all ease-linear after:duration-500 after:absolute after:h-[2px] after:bg-[#DEEAF9] after:start-[50%] hover:after:w-full hover:after:start-0 overflow-hidden relative after:top-5 after:rounded-full"
                       >
                         Help support
                       </a>
@@ -164,9 +164,9 @@ const Footer = () => {
                 </div>
               </div>
             </div>
-            <p className="sm:text-[16px] text-[11px] font-inter font-normal color_light_e6 lg:mt-16 mt-10 xl:mt-24 flex items-center">
+            <p className="sm:text-[16px] text-[11px] font-inter font-normal color_gray_white mt-10 xl:mt-24 flex items-center">
               Built by Jeremiah with
-              <span className="px-1">
+              <span className="px-[6px]">
                 <HeartIcon />
               </span>
               in Lagos. Copyright {year}

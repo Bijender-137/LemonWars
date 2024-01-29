@@ -19,16 +19,16 @@ const RealStories = () => {
       >
         <div className="md:flex">
           <div className="md:w-1/2">
-            <div className="md:flex flex-col items-end">
+            <div className="md:flex flex-col lg:items-end">
               {/* REAL STORIES REAL CUSTOMERS */}
               <div className="relative z-10">
-                <h2 className="color_light_black font-inter fs_4xl font-extrabold xl:leading-[64px]">
+                <h2 className="color_light_black font-inter fs_4xl font-extrabold lg:leading-[55px] md:leading-[48px] xl:leading-[64px]">
                   Real Stories from <span className="md:block"></span> Real
                   Customers
                 </h2>
                 <img
                   loading="lazy"
-                  className=" max-w-[50px] md:max-w-[80px] lg:max-w-[143px] top-0 left-[-25px] absolute md:top-[-20px] md:left-[-30px] lg:top-[-55px] lg:left-[-95px]"
+                  className=" max-w-[50px] md:max-w-[80px] lg:max-w-[115px] xl:max-w-[143px] top-0 left-[-25px] absolute md:top-[-20px] md:left-[-30px] lg:top-[-60px] xl:top-[-80px] lg:left-[-85px] xl:left-[-110px]"
                   src={QuateMark}
                   alt="QuateMark"
                 />
@@ -36,7 +36,7 @@ const RealStories = () => {
                   Get inspired by these stories.
                 </p>
               </div>
-              <div className="bg-white sm:max-w-[500px] sm:mx-auto md:mx-0 md:max-w-[350px] rounded-[8px] pt-4 pb-4 md:pb-10 lg:pb-16 xl:pb-24 pr-6 xl:pr-8 pl-8 xl:pl-16 shadow-md mt-7 hover:shadow-xl transition-all ease-in-out duration-300">
+              <div className="bg-white sm:max-w-[500px] sm:mx-auto md:mx-0 md:max-w-[350px] rounded-[8px] pt-4 pb-4 md:pb-10 lg:pb-16 xl:pb-24 pr-6 xl:pr-8 pl-8 xl:pl-16 real_story_shadow mt-7 hover:shadow-xl transition-all ease-in-out duration-300">
                 <img className="max-w-[120px]" src={CliImg} alt="CliImg" />
                 <div className="relative">
                   <p className="font-inter fs_xs text-black font-normal lg:leading-8 mt-4">
@@ -63,7 +63,7 @@ const RealStories = () => {
           </div>
           {/* CARDS */}
           <div className="md:w-1/2 md:pl-[30px]">
-            <div className="bg-white sm:max-w-[500px] sm:mx-auto md:mx-0 md:max-w-[455px] rounded-[8px] pt-4 lg:pt-10 pb-3 pr-6 xl:pr-8 lg:pl-16 pl-8 shadow-md mt-7 hover:shadow-xl transition-all ease-in-out duration-300">
+            <div className="bg-white sm:max-w-[500px] sm:mx-auto md:mx-0 md:max-w-[455px] rounded-[8px] pt-4 lg:pt-10 pb-3 pr-6 xl:pr-8 lg:pl-16 pl-8 real_story_shadow mt-7 hover:shadow-xl transition-all ease-in-out duration-300">
               <img
                 loading="lazy"
                 className="max-w-[78px] h-[50px]"
@@ -91,7 +91,7 @@ const RealStories = () => {
                 CEO, JPNL
               </p>
             </div>
-            <div className="bg-white sm:max-w-[500px] md:max-w-[350px]  sm:mx-auto md:mx-0 rounded-[8px] pt-4 lg:pt-10 pb-4 lg:pb-8 pr-6 lg:pr-8 lg:pl-16 pl-8 shadow-md mt-7 lg:mt-8 hover:shadow-xl transition-all ease-in-out duration-300">
+            <div className="bg-white sm:max-w-[500px] md:max-w-[350px]  sm:mx-auto md:mx-0 rounded-[8px] pt-4 lg:pt-10 pb-4 lg:pb-8 pr-6 lg:pr-8 lg:pl-16 pl-8 real_story_shadow mt-7 lg:mt-8 hover:shadow-xl transition-all ease-in-out duration-300">
               <img
                 loading="lazy"
                 className="max-w-[120px] h-[63px]"
@@ -135,37 +135,37 @@ const RealStories = () => {
             <div className="grid items-center justify-items-center lg:justify-items-start w-full gap-6 lg:gap-8 xl:gap-14 grid-cols-2 sm:grid-cols-3 lg:grid-cols-3">
               <img
                 loading="lazy"
-                className="max-w-[100px] sm:max-w-[120px] h-[80px]"
+                className="max-w-[100px] sm:max-w-[120px] sm:h-[80px]"
                 src={JpnlLongImg}
                 alt="JpnlLongImg"
               />
               <img
                 loading="lazy"
-                className="max-w-[100px] sm:max-w-[120px] h-[42px]"
+                className="max-w-[100px] sm:max-w-[120px] sm:h-[42px]"
                 src={KoraneImg}
                 alt="KoraneImg"
               />
               <img
                 loading="lazy"
-                className="max-w-[100px] sm:max-w-[120px] h-[40px]"
+                className="max-w-[100px] sm:max-w-[120px] sm:h-[40px]"
                 src={NadineImg}
                 alt="NadineImg"
               />
               <img
                 loading="lazy"
-                className="max-w-[100px] sm:max-w-[120px] h-[35px]"
+                className="max-w-[100px] sm:max-w-[120px] sm:h-[35px]"
                 src={BrandingLongImg}
                 alt="BrandingLongImg"
               />
               <img
                 loading="lazy"
-                className="max-w-[100px] sm:max-w-[120px] h-[30px]"
+                className="max-w-[100px] sm:max-w-[120px] sm:h-[30px]"
                 src={JangoImg}
                 alt="JangoImg"
               />
               <img
                 loading="lazy"
-                className="max-w-[100px] sm:max-w-[120px] h-[50px]"
+                className="max-w-[100px] sm:max-w-[120px] sm:h-[50px]"
                 src={CliLongImg}
                 alt="CliLongImg"
               />

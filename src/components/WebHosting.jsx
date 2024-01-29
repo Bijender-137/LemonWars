@@ -14,11 +14,11 @@ const WebHosting = () => {
     <>
       <div id="about">
         <div className="container">
-          <div className="lg:pl-14 lg:pr-16 xl:pl-18 xl:pr-[70px] pt-20 pb-1">
+          <div className="lg:pl-14 lg:pr-16 xl:pl-18 xl:pr-[70px] pt-20 md:pt-24 lg:pt-20 pb-1">
             <div className="lg:flex pb-2">
               {/*CLOUD WEB HOSTING  */}
               <div className="lg:w-1/2 text-center lg:text-start lg:pe-4 xl:pe-0">
-                <h2 className="font-extrabold font-poppins color_light_black fs_4xl xl:leading-[64px]">
+                <h2 className="font-extrabold font-poppins color_light_black fs_4xl lg:leading-[52px] xl:leading-[64px]">
                   True Cloud Web Hosting
                 </h2>
                 <p className="fs_sm font-inter font-normal sm:px-2 lg:px-0 color_light_black lg:max-w-[575px] xl:leading-[32px] pt-4 xl:pt-6">
@@ -30,41 +30,41 @@ const WebHosting = () => {
                 </p>
               </div>
               {/* WEB HOSTING IMAGES */}
-              <div className="lg:w-1/2 w-full mt-6 xl:mt-4">
+              <div className="lg:w-1/2 w-full mt-6 xl:mt-4 lg:ps-3 xl:ps-8">
                 <div className="grid items-center justify-items-center lg:justify-items-start grid-cols-2 sm:grid-cols-3 lg:grid-cols-3 gap-4">
                   <img
                     loading="lazy"
-                    className="w-[100px] h-6 sm:h-[30px] sm:w-[140px] lg:mx-auto"
+                    className="w-[100px] h-6 sm:h-[30px] sm:w-[140px] lg:mx- auto"
                     src={PanelImg}
                     alt="PanelImg"
                   />
                   <img
                     loading="lazy"
-                    className="sm:w-[125px] sm:h-[50px] h-10 w-[100px] lg:mx-auto"
+                    className="sm:w-[125px] sm:h-[50px] h-10 w-[100px] lg:mx- auto"
                     src={SecuredImunify}
                     alt="SecuredImunify"
                   />
                   <img
                     loading="lazy"
-                    className="sm:w-[125px] w-[100px] sm:h-[53px] h-10 lg:mx-auto ps-1"
+                    className="sm:w-[125px] w-[100px] sm:h-[53px] h-10 lg:mx- auto ps -1"
                     src={LiteSpeed}
                     alt="LiteSpeed"
                   />
                   <img
                     loading="lazy"
-                    className="sm:w-[172px] w-[120px] sm:h-[92px] h-16 lg:mx-auto lg:mt-5"
+                    className="sm:w-[172px] w-[120px] sm:h-[92px] h-16 lg:mx- auto lg:mt-5"
                     src={SoftaColor}
                     alt="SoftaColor"
                   />
                   <img
                     loading="lazy"
-                    className="sm:w-[168px] w-[120px] sm:h-[56px] h-11 lg:mx-auto lg:mt-5"
+                    className="sm:w-[168px] w-[120px] sm:h-[56px] h-11 lg:mx- auto lg:mt-5"
                     src={WordPress}
                     alt="WordPress"
                   />
                   <img
                     loading="lazy"
-                    className="sm:w-[143px] w-[110px] h-[47px] lg:mx-auto lg:mt-5"
+                    className="sm:w-[143px] w-[110px] h-[47px] lg:mx- auto lg:mt-5"
                     src={CloudFair}
                     alt="CloudFair"
                   />
@@ -80,7 +80,7 @@ const WebHosting = () => {
                   src={UptimeImg}
                   alt="UptimeImg"
                 />
-                <h3 className="text-black font-poppins text-base font-bold pt-3">
+                <h3 className="text-black font-poppins fs_base font-bold pt-3">
                   99.9% Uptime
                 </h3>
                 <p className="font-light text-black font-poppins text-[12px] sm:px-3 lg:px-6 pt-1">
@@ -96,7 +96,7 @@ const WebHosting = () => {
                   src={BlazingHosting}
                   alt="BlazingHosting"
                 />
-                <h3 className="text-black font-poppins text-base font-bold pt-3">
+                <h3 className="text-black font-poppins fs_base font-bold pt-3">
                   Blazing Fast Web Hosting
                 </h3>
                 <p className="font-light text-black font-poppins text-[12px] sm:px-3 lg:px-6 pt-1">
@@ -112,7 +112,7 @@ const WebHosting = () => {
                   src={SslCertificate}
                   alt="SslCertificate"
                 />
-                <h3 className="text-black font-poppins text-base font-bold pt-3">
+                <h3 className="text-black font-poppins fs_base font-bold pt-3">
                   Free SSL Certificates
                 </h3>
                 <p className="font-light text-black font-poppins text-[12px] sm:px-3 lg:px-6 pt-1">
@@ -128,7 +128,7 @@ const WebHosting = () => {
                   src={SupportImg}
                   alt="SupportImg"
                 />
-                <h3 className="text-black font-poppins text-base font-bold pt-3">
+                <h3 className="text-black font-poppins fs_base font-bold pt-3">
                   24x7 Friendly Support
                 </h3>
                 <p className="font-light text-black font-poppins text-[12px] sm:px-3 lg:px-6 pt-1">

@@ -13,22 +13,20 @@ const BackToTop = () => {
     }
   });
   return (
-    <section>
-      <div className="relative z-10 mt-[-20px]">
-        <div className="z-10 h-[20px] w-[20px]">
-          <img
-            src={backToTop}
-            height={40}
-            onClick={() => onTop()}
-            className={
-              visible
-                ? "hidden"
-                : "block sm:end-[40px] !h-[60px] cursor-pointer end-1 sm:bottom-[40px] hover:shadow-black hover:shadow-md rounded-full bottom-1 fixed hover:scale-90 transition-all ease-linear"
-            }
-          />
-        </div>
+    <div className="relative z-10 mt-[-20px]">
+      <div className="z-10 h-[20px] w-[20px]">
+        <img
+          src={backToTop}
+          height={40}
+          onClick={() => onTop()}
+          className={
+            visible
+              ? "hidden"
+              : "block sm:end-[40px] !h-[60px] cursor-pointer end-1 sm:bottom-[40px] hover:shadow-black hover:shadow-md rounded-full bottom-1 fixed hover:scale-90 transition-all ease-linear"
+          }
+        />
       </div>
-    </section>
+    </div>
   );
 };
 

@@ -14,50 +14,54 @@ const Hero = () => {
       <div className="container">
         <div className="md:flex sm:px-4 md:px-0 lg:pl-14 lg:pr-20 xl:pl-28 xl:pr-[126px] pt-10 md:pt-14 xl:pt-20">
           <div className="md:w-1/2 md:pe-4 h-[280px] sm:h-[320px]">
-            <div className="flex items-center justify-center md:justify-normal gap-6 after:content-[''] after:w-[262px] after:absolute after:h-[2px] after:bg-[#E5E5E5] after:bottom-0 relative after:rounded-[10px]">
+            <div className="flex items-center justify-center md:justify-normal gap-6 after:content-[''] after:w-[262px] after:absolute after:h-[2px] after:bg-[#E5E5E5] after:bottom-[-4px] relative after:rounded-[10px]">
               <div
-                className={`cursor-pointer font-semibold text-[15px] font-poppins ${
-                  activeTab === 1
-                    ? "color_red border-b-2 border-[#b00000] z-10"
-                    : "color_lightGray"
+                className={`cursor-pointer font-semibold text-[15px] font-poppins relative ${
+                  activeTab === 1 ? "color_red z-10" : "color_fadegray"
                 }`}
                 onClick={() => handleTabClick(1)}
               >
                 Hosting
+                {activeTab === 1 && (
+                  <div className="absolute bottom-[-4px] left-1/2 transform -translate-x-1/2 w-4/5 h-[2px] bg-[#B00000]" />
+                )}
               </div>
               <div
-                className={`cursor-pointer font-semibold text-[15px] font-poppins ${
-                  activeTab === 2
-                    ? "color_red border-b-2 border-[#b00000] z-10"
-                    : "text-[#DBD9D9]"
+                className={`cursor-pointer font-semibold text-[15px] font-poppins relative ${
+                  activeTab === 2 ? "color_red z-10" : "color_fadegray"
                 }`}
                 onClick={() => handleTabClick(2)}
               >
                 Domain
+                {activeTab === 2 && (
+                  <div className="absolute bottom-[-4px] left-1/2 transform -translate-x-1/2 w-4/5 h-[2px] bg-[#B00000]" />
+                )}
               </div>
               <div
-                className={`cursor-pointer font-semibold text-[15px] font-poppins ${
-                  activeTab === 3
-                    ? "color_red border-b-2 border-[#b00000] z-10"
-                    : "text-[#DBD9D9]"
+                className={`cursor-pointer font-semibold text-[15px] font-poppins relative ${
+                  activeTab === 3 ? "color_red z-10" : "color_fadegray"
                 }`}
                 onClick={() => handleTabClick(3)}
               >
                 SEO
+                {activeTab === 3 && (
+                  <div className="absolute bottom-[-4px] left-1/2 transform -translate-x-1/2 w-4/5 h-[2px] bg-[#B00000]" />
+                )}
               </div>
               <div
-                className={`cursor-pointer font-semibold text-[15px] font-poppins ${
-                  activeTab === 4
-                    ? "color_red border-b-2 border-[#b00000] z-10"
-                    : "text-[#DBD9D9]"
+                className={`cursor-pointer font-semibold text-[15px] font-poppins relative ${
+                  activeTab === 4 ? "color_red z-10" : "color_fadegray"
                 }`}
                 onClick={() => handleTabClick(4)}
               >
                 Email
+                {activeTab === 4 && (
+                  <div className="absolute bottom-[-4px] left-1/2 transform -translate-x-1/2 w-4/5 h-[2px] bg-[#B00000]" />
+                )}
               </div>
             </div>
 
-            <h1 className="pt-[26px] text-[#2E2E2E] font-bold fs_6xl font-poppins text-center md:text-start xl:leading-[77px]">
+            <h1 className="pt-[26px] text-[#2E2E2E] font-bold fs_6xl font-poppins text-center md:text-start md:leading-[46px] lg:leading-[58px] xl:leading-[77px]">
               {activeTab === 1 && "Premium Web Hosting for Your Website"}
               {activeTab === 2 && "Premium Web Domain for Your Website"}
               {activeTab === 3 && "Premium SEO Services"}
@@ -72,13 +76,13 @@ const Hero = () => {
             <div className="flex items-center justify-center md:justify-normal pt-5 md:pt-10 xl:pt-[60px]">
               <button
                 type="button"
-                className="text-[13px] sm:text-[14px] w-[160px] font-poppins font-normal text-white border border-transparent bg-[#B00000] hover:border-black hover:bg-black transition-all ease-linear duration-300 p-2 sm:p-3 rounded-[8px] buttons_shadow leading-[22px] "
+                className="text-[13px] sm:text-[14px] w-[160px] font-poppins font-normal text-white border border-transparent bg-[#B00000] hover:border-black hover:bg-black transition-all ease-linear duration-300 p-2 sm:p-3 rounded-[8px] creat_account_button_shadow leading-[22px] "
               >
                 Create an Account
               </button>
               <button
                 type="button"
-                className="text-[13px] sm:text-[14px] w-[160px] font-poppins font-normal text-black border border-black hover:bg-black hover:border-transparent hover:color_red transition-all ease-linear duration-300 p-2 sm:p-3 rounded-[8px] leading-[22px] buttons ml-3 sm:ml-6 hover:text-white"
+                className="text-[13px] sm:text-[14px] w-[160px] font-poppins font-normal text-black border border-black hover:bg-black hover:border-transparent hover:color_red transition-all ease-linear duration-300 p-2 sm:p-3 rounded-[8px] leading-[22px] choose_plan_button ml-3 sm:ml-6 hover:text-white"
               >
                 Choose your plan
               </button>
@@ -87,13 +91,15 @@ const Hero = () => {
           {/* WEB HOSTING GIRL */}
           <div className="md:w-1/2">
             <div className="w-full pt-8 md:pt-0 relative">
-              <img loading="lazy"
+              <img
+                loading="lazy"
                 className="w-[400px] mx-auto hidden sm:block md:ms-auto md:mx-0 md:w-[390px] lg:w-[527px] xl:h-[504px] "
                 src={WebHostingGirl}
                 alt="WebHostingGirl"
               />
-              <img loading="lazy"
-                className="w-[400px] h-[300px] sm:hidden mx-auto md:ms-auto md:mx-0 md:w-[400px] lg:w-[527px] xl:h-[504px] "
+              <img
+                loading="lazy"
+                className="w-[400px]  sm:hidden mx-auto md:ms-auto md:mx-0 md:w-[400px] lg:w-[527px] xl:h-[504px] "
                 src={Webhosting2}
                 alt="Webhosting2"
               />

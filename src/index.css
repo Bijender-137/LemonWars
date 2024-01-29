@@ -9,11 +9,11 @@
     --fs-sm: 16px;
     --fs-base: 18px;
     --fs-lg: 18px;
-    --fs-xl: 20px;
-    --fs-xxl: 20px;
+    --fs-xl: 19px;
     --fs-2xl: 20px;
-    --fs-4xl: 23px;
-    --fs-5xl: 24px;
+    --fs-3xl: 21px;
+    --fs-4xl: 25px;
+    --fs-5xl: 25px;
     --fs-6xl: 25px;
     /* COLOR */
     --color-lightGray: #D6D4D4E0;
@@ -21,10 +21,16 @@
     --color-lightBlack: #18191F;
     --color-light: #e6e6e6;
     --color-red: #B00000;
+    --border-color-red: #B00000;
+    --color-fadGray: #DBD9D9;
 }
 
 .color_lightGray {
     color: var(--color-lightGray);
+}
+
+.color_fadegray {
+    color: var(--color-fadGray);
 }
 
 .color_red {
@@ -35,11 +41,15 @@
     background-color: var(--color-red);
 }
 
+.border-b-color-red {
+    border-color: var(--border-color-red);
+}
+
 .bg_gray {
     background-color: var(--color-gray);
 }
 
-.color_light_e6 {
+.color_gray_white {
     color: var(--color-light);
 }
 
@@ -75,11 +85,11 @@
     font-size: var(--fs-xl);
 }
 
-.fs_xxl {
+.fs_2xl {
     font-size: var(--fs-xxl);
 }
 
-.fs_2xl {
+.fs_3xl {
     font-size: var(--fs-2xl);
 }
 
@@ -91,6 +101,15 @@
     font-size: var(--fs-5xl);
 }
 
+.tab {
+    position: relative;
+}
+
+.active-tab {
+    border-bottom: 2px solid #B00000;
+    width: 80%;
+}
+
 @media (min-width:638.98px) {
     :root {
         --fs-xs: 16px;
@@ -98,8 +117,8 @@
         --fs-base: 18px;
         --fs-lg: 21px;
         --fs-xl: 23px;
-        --fs-xxl: 25px;
-        --fs-2xl: 30px;
+        --fs-2xl: 25px;
+        --fs-3xl: 30px;
         --fs-4xl: 35px;
         --fs-5xl: 38px;
         --fs-6xl: 42px;
@@ -111,8 +130,8 @@
         --fs-base: 20px;
         --fs-lg: 23px;
         --fs-xl: 25px;
-        --fs-xxl: 27px;
-        --fs-2xl: 32px;
+        --fs-2xl: 27px;
+        --fs-3xl: 32px;
         --fs-4xl: 36px;
         --fs-5xl: 39px;
         --fs-6xl: 40px;
@@ -123,19 +142,20 @@
     :root {
         --fs-lg: 23px;
         --fs-xl: 28px;
-        --fs-xxl: 30px;
-        --fs-2xl: 42px;
+        --fs-2xl: 30px;
+        --fs-3xl: 42px;
         --fs-4xl: 42px;
         --fs-5xl: 45px;
         --fs-6xl: 46px;
     }
 }
+
 @media (min-width:1199.98px) {
     :root {
         --fs-lg: 25px;
         --fs-xl: 28px;
-        --fs-xxl: 30px;
-        --fs-2xl: 42px;
+        --fs-2xl: 30px;
+        --fs-3xl: 42px;
         --fs-4xl: 48px;
         --fs-5xl: 50px;
         --fs-6xl: 64px;
