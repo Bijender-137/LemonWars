@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { LemonWars, Premium } from "./common/Helper";
+import { RightIcon } from "./common/Icons";
 const LemonWares = () => {
   const [activeTab, setActiveTab] = useState(1);
   const [isYearly, setIsYearly] = useState(false);
@@ -116,55 +117,55 @@ const LemonWares = () => {
                       {data.button}
                     </button>
                     <div className="flex items-center mt-4 sm:mt-6 md:mt-[35px]">
-                      {data.cardImage}
+                      <RightIcon />
                       <p className="ms-6 font-inter fs_xs font-bold color_gray md:leading-6">
                         {data.subtitle}
                       </p>
                     </div>
                     <div className="flex items-center mt-3 sm:mt-4">
-                      {data.cardImage}
+                      <RightIcon />
                       <p className="ms-6 fs_xs font-inter font-bold color_gray md:leading-6">
                         {data.bandwidth}
                       </p>
                     </div>
                     <div className="flex items-center mt-3 sm:mt-4">
-                      {data.cardImage}
+                      <RightIcon />
                       <p className="ms-6 fs_xs font-inter font-bold color_gray md:leading-6">
                         {data.accounts}
                       </p>
                     </div>
                     <div className="flex items-center mt-3 sm:mt-4">
-                      {data.cardImage}
+                      <RightIcon />
                       <p className="ms-6 fs_xs font-inter font-bold color_gray md:leading-6">
                         {data.database}
                       </p>
                     </div>
                     <div className="flex items-center mt-3 sm:mt-4">
-                      {data.cardImage}
+                      <RightIcon />
                       <p className="ms-6 fs_xs font-inter font-bold color_gray md:leading-6">
                         {data.subdomain}
                       </p>
                     </div>
                     <div className="flex items-center mt-3 sm:mt-4">
-                      {data.cardImage}
+                      <RightIcon />
                       <p className="ms-6 fs_xs font-inter font-bold color_gray md:leading-6">
                         {data.parkdomain}
                       </p>
                     </div>
                     <div className="flex items-center mt-3 sm:mt-4">
-                      {data.cardImage}
+                      <RightIcon />
                       <p className="ms-6 fs_xs font-inter font-bold color_gray md:leading-6">
                         {data.websites}
                       </p>
                     </div>
                     <div className="flex items-center mt-3 sm:mt-4">
-                      {data.cardImage}
+                      <RightIcon />
                       <p className="ms-6 fs_xs font-inter font-bold color_gray md:leading-6">
                         {data.freessl}
                       </p>
                     </div>
                     <div className="flex items-center mt-3 sm:mt-4">
-                      {data.cardImage}
+                      <RightIcon />
                       <p className="ms-6 fs_xs font-inter font-bold color_gray md:leading-6">
                         {data.softcolus}
                       </p>

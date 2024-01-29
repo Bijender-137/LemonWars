@@ -18,7 +18,7 @@ const WebHosting = () => {
             <div className="lg:flex pb-2">
               {/*CLOUD WEB HOSTING  */}
               <div className="lg:w-1/2 text-center lg:text-start lg:pe-4 xl:pe-0">
-                <h2 className="font-extrabold font-poppins color_light_black fs_4xl lg:leading-[52px] xl:leading-[64px]">
+                <h2 className="font-extrabold font-inter color_light_black fs_4xl lg:leading-[52px] xl:leading-[64px]">
                   True Cloud Web Hosting
                 </h2>
                 <p className="fs_sm font-inter font-normal sm:px-2 lg:px-0 color_light_black lg:max-w-[575px] xl:leading-[32px] pt-4 xl:pt-6">

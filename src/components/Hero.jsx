@@ -68,8 +68,8 @@ const Hero = () => {
               {activeTab === 4 && "Premium Email Services"}
             </h1>
 
-            <p className="font-inter fs_xs color_gray pt-5 lg:pt-[34px] text-center md:text-start tracking-[0.8px]">
-              Blazing fast web hosting for individuals and{" "}
+            <p className="font-inter font-normal fs_xs color_gray pt-5 lg:pt-[34px] text-center md:text-start tracking-[0.8px]">
+              Blazing fast web hosting for individuals and 
               <span className="lg:block"></span> businesses of all sizes backed
               by 24x7x365 Support.
             </p>
