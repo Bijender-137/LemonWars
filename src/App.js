@@ -1,6 +1,4 @@
-import logo from "./logo.svg";
 import "./App.css";
-import Header from "./components/Header";
 import Hero from "./components/Hero";
 import WebHosting from "./components/WebHosting";
 import LemonWares from "./components/LemonWares";
@@ -21,7 +19,6 @@ function App() {
       <div className="overflow-hidden">
         <Preloader />
         <BackToTop />
-        <Header />
         <Hero />
         <WebHosting />
         <LemonWares />
