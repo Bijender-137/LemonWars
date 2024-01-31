@@ -1,7 +1,4 @@
 * {
-  text-decoration: none !important;
-  box-sizing: border-box !important;
-  list-style-type: none !important;
   scroll-behavior: smooth;
 }
 
@@ -11,14 +8,6 @@ input:checked~.dot {
 
 input:checked~.block {
   background-color: black;
-}
-
-.creat_account_button_shadow {
-  box-shadow: 0px 0px 34px 0px rgba(176, 0, 0, 0.30) !important;
-}
-
-.choose_plan_button:hover {
-  box-shadow: 0px 0px 64px 0px rgba(176, 0, 0, 0.30) !important;
 }
 
 .preloader_text text {
@@ -56,36 +45,16 @@ input:checked~.block {
   }
 }
 
-.wrapper {
-  background-color: #B00000;
-  width: 100% !important;
-}
-
 .hidden_2 {
   overflow: hidden !important;
-}
-
-/* REAL STORIES BOX SHADOW */
-.real_story_shadow {
-  box-shadow: 0px 10px 20px 0px rgba(41, 41, 42, 0.07);
 }
 
 ::-webkit-scrollbar {
   display: none;
 }
-
+/* 
 @media (max-width:1023.98px) {
   .overflow_hidden {
     overflow: hidden;
   }
-
-  .creat_account_button_shadow {
-    box-shadow: 0px 0px 64px 0px rgba(176, 0, 0, 0.30) !important;
-  }
-}
-
-@media (min-width:1400px) {
-  .cards_gap {
-    gap: 100px !important;
-  }
-}
+} */

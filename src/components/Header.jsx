@@ -22,7 +22,8 @@ const Header = () => {
               <div className="flex items-center">
                 {/* NAV LOGO */}
                 <a href="#">
-                  <img loading="lazy"
+                  <img
+                    loading="lazy"
                     src={Pagelogo}
                     alt="Pagelogo"
                     className="md:max-w-[90px] md:h-[60px] sm:h-[40px] max-w-[50px] h-[40px]"
@@ -39,7 +40,7 @@ const Header = () => {
                   </li>
                 </ul>
               </div>
-              <div className="lg:mr-12 xl:mr-24">
+              <div className="lg:mr-12 xl:mr-24 text-[20px] sm:text-[24px] lg:text-[15px] font-semibold text-black  font-poppins">
                 <ul
                   className={`flex gap-5 lg:gap-8 items-center justify-center z-20  flex-col lg:flex-row min-h-full lg:min-h-fit bg-white fixed lg:relative lg:bg-transparent start-[-100%] lg:start-0 top-0 w-full transition-all duration-300 ease-linear ${
                     head ? "" : "!left-0"
@@ -48,7 +49,7 @@ const Header = () => {
                   <li className="lg:hidden">
                     <a
                       href="#services"
-                      className="text-[20px] sm:text-[24px] lg:text-[15px] md font-semibold text-black font-poppins after:content-[''] after:w-0 transition-all ease-linear after:duration-500 after:absolute after:h-[2px] after:bg-[#B00000] after:start-[50%] hover:after:w-[80%] hover:after:start-[10%] overflow-hidden relative after:top-6 after:rounded-[10px]"
+                      className="after:content-[''] after:w-0 transition-all ease-linear after:duration-500 after:absolute after:h-[2px] after:bg-[#B00000] after:start-[50%] hover:after:w-[80%] hover:after:start-[10%] overflow-hidden relative after:top-6 after:rounded-[10px]"
                       onClick={showUl}
                     >
                       Our Services
@@ -57,7 +58,7 @@ const Header = () => {
                   <li>
                     <a
                       href="#about"
-                      className="text-black text-[20px] sm:text-[24px] lg:text-[15px] md font-semibold font-poppins after:content-[''] after:w-0 transition-all ease-linear after:duration-500 after:absolute after:h-[2px] after:bg-[#B00000] after:start-[50%] hover:after:w-[80%] hover:after:start-[10%] overflow-hidden relative after:top-6 after:rounded-[10px]"
+                      className="after:content-[''] after:w-0 transition-all ease-linear after:duration-500 after:absolute after:h-[2px] after:bg-[#B00000] after:start-[50%] hover:after:w-[80%] hover:after:start-[10%] overflow-hidden relative after:top-6 after:rounded-[10px]"
                       onClick={showUl}
                     >
                       About
@@ -65,7 +66,7 @@ const Header = () => {
                   </li>
                   <li>
                     <a
-                      className="text-black text-[20px] sm:text-[24px] lg:text-[15px] md font-semibold font-poppins after:content-[''] after:w-0 transition-all ease-linear after:duration-500 after:absolute after:h-[2px] after:bg-[#B00000] after:start-[50%] hover:after:w-[80%] hover:after:start-[10%] overflow-hidden relative after:top-6 after:rounded-[10px]"
+                      className="after:content-[''] after:w-0 transition-all ease-linear after:duration-500 after:absolute after:h-[2px] after:bg-[#B00000] after:start-[50%] hover:after:w-[80%] hover:after:start-[10%] overflow-hidden relative after:top-6 after:rounded-[10px]"
                       href="#blogs"
                       onClick={showUl}
                     >
@@ -74,7 +75,7 @@ const Header = () => {
                   </li>
                   <li>
                     <a
-                      className="text-black text-[20px] sm:text-[24px] lg:text-[15px] md font-semibold font-poppins after:content-[''] after:w-0 transition-all ease-linear after:duration-500 after:absolute after:h-[2px] after:bg-[#B00000] after:start-[50%] hover:after:w-[80%] hover:after:start-[10%] overflow-hidden relative after:top-6 after:rounded-[10px]"
+                      className="after:content-[''] after:w-0 transition-all ease-linear after:duration-500 after:absolute after:h-[2px] after:bg-[#B00000] after:start-[50%] hover:after:w-[80%] hover:after:start-[10%] overflow-hidden relative after:top-6 after:rounded-[10px]"
                       href="#contact"
                       onClick={showUl}
                     >
@@ -83,7 +84,7 @@ const Header = () => {
                   </li>
                   <li className="lg:hidden">
                     <a
-                      className="text-black text-[20px] sm:text-[24px] lg:text-[15px] md font-semibold font-poppins after:content-[''] after:w-0 transition-all ease-linear after:duration-500 after:absolute after:h-[2px] after:bg-[#B00000] after:start-[50%] hover:after:w-[80%] hover:after:start-[10%] overflow-hidden relative after:top-6 after:rounded-[10px]"
+                      className="after:content-[''] after:w-0 transition-all ease-linear after:duration-500 after:absolute after:h-[2px] after:bg-[#B00000] after:start-[50%] hover:after:w-[80%] hover:after:start-[10%] overflow-hidden relative after:top-6 after:rounded-[10px]"
                       href="#account"
                       onClick={showUl}
                     >
@@ -92,12 +93,12 @@ const Header = () => {
                   </li>
                 </ul>
               </div>
-              <div>
+              <div className="font-semibold font-poppins">
                 {/* CONTACT LOGO */}
                 <ul className="items-center hidden lg:flex">
                   <li>
                     <a
-                      className="text-black text-[15px] font-semibold font-poppins  after:content-[''] after:w-0 transition-all ease-linear after:duration-500 after:absolute after:h-[2px] after:bg-[#B00000] after:start-[50%] hover:after:w-[80%] hover:after:start-[10%]  overflow-hidden relative after:top-6 after:rounded-[10px]"
+                      className="text-black text-[15px]  after:content-[''] after:w-0 transition-all ease-linear after:duration-500 after:absolute after:h-[2px] after:bg-[#B00000] after:start-[50%] hover:after:w-[80%] hover:after:start-[10%]  overflow-hidden relative after:top-6 after:rounded-[10px]"
                       href="#account"
                       onClick={showUl}
                     >
@@ -114,7 +115,7 @@ const Header = () => {
                       className="flex items-center"
                     >
                       <MobileIcon />
-                      <span className="text-black font-semibold fs_xs font-poppins ps-[6px]">
+                      <span className="text-black ps-[6px]">
                         +2349067322844
                       </span>
                     </a>

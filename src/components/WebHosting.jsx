@@ -17,11 +17,11 @@ const WebHosting = () => {
           <div className="lg:pl-14 lg:pr-16 xl:pl-18 xl:pr-[70px] pt-20 md:pt-24 lg:pt-20 pb-1">
             <div className="lg:flex pb-2">
               {/*CLOUD WEB HOSTING  */}
-              <div className="lg:w-1/2 text-center lg:text-start lg:pe-4 xl:pe-0">
-                <h2 className="font-extrabold font-inter color_light_black fs_4xl lg:leading-[52px] xl:leading-[64px]">
+              <div className="lg:w-1/2 text-center lg:text-start lg:pe-4 xl:pe-0 font-inter text-[#18191F]">
+                <h2 className="font-extrabold text-[25px] sm:text-[35px] md:text-[36px] lg:text-[42px] xl:text-[48px] lg:leading-[52px] xl:leading-[64px]">
                   True Cloud Web Hosting
                 </h2>
-                <p className="fs_sm font-inter font-normal sm:px-2 lg:px-0 color_light_black lg:max-w-[575px] xl:leading-[32px] pt-4 xl:pt-6">
+                <p className="text-[16px] sm:text-[18px] font-normal sm:px-2 lg:px-0 lg:max-w-[575px] xl:leading-[32px] pt-4 xl:pt-6">
                   True Cloud Web Hosting. All of the hosting packages we offer
                   are deployed instantly on our SSD powered cloud. We don’t use
                   dedicated servers that operate on single pieces of hardware.
@@ -72,7 +72,7 @@ const WebHosting = () => {
               </div>
             </div>
             {/* HOSTING SERVICES */}
-            <div className="flex flex-wrap xl:flex-nowrap xl:justify-between items-center justify-center xl:px-10 w-full pt-10 md:pt-14 lg:pt-20 xl:pt-28">
+            <div className="flex flex-wrap xl:flex-nowrap xl:justify-between items-center justify-center xl:px-10 w-full pt-10 md:pt-14 lg:pt-20 xl:pt-28 text-black font-poppins">
               <div className="px-4 lg:px-0 sm:mt-0 w-[340px] sm:w-1/2 sm:px-8 lg:w-4/12 xl:w-3/12 duration-200 hover:scale-105 text-center ">
                 <img
                   loading="lazy"
@@ -80,10 +80,10 @@ const WebHosting = () => {
                   src={UptimeImg}
                   alt="UptimeImg"
                 />
-                <h3 className="text-black font-poppins fs_base font-bold pt-3">
+                <h3 className="text-[17px] sm:text-[18px] md:text-[20px] font-bold pt-3">
                   99.9% Uptime
                 </h3>
-                <p className="font-light text-black font-poppins text-[12px] sm:px-3 lg:px-6 pt-1">
+                <p className="font-light text-[12px] sm:px-3 lg:px-6 pt-1">
                   We Keep Your Web build Online 24x7x365. Downtime not only
                   costs you lost visitors but also damages your reputation and
                   search engine rankings.
@@ -96,10 +96,10 @@ const WebHosting = () => {
                   src={BlazingHosting}
                   alt="BlazingHosting"
                 />
-                <h3 className="text-black font-poppins fs_base font-bold pt-3">
+                <h3 className="text-[17px] sm:text-[18px] md:text-[20px] font-bold pt-3">
                   Blazing Fast Web Hosting
                 </h3>
-                <p className="font-light text-black font-poppins text-[12px] sm:px-3 lg:px-6 pt-1">
+                <p className="font-light text-[12px] sm:px-3 lg:px-6 pt-1">
                   We Keep Your Web build Online 24x7x365. Downtime not only
                   costs you lost visitors but also damages your reputation and
                   search engine rankings.
@@ -112,10 +112,10 @@ const WebHosting = () => {
                   src={SslCertificate}
                   alt="SslCertificate"
                 />
-                <h3 className="text-black font-poppins fs_base font-bold pt-3">
+                <h3 className="text-[17px] sm:text-[18px] md:text-[20px] font-bold pt-3">
                   Free SSL Certificates
                 </h3>
-                <p className="font-light text-black font-poppins text-[12px] sm:px-3 lg:px-6 pt-1">
+                <p className="font-light text-[12px] sm:px-3 lg:px-6 pt-1">
                   We Keep Your Web build Online 24x7x365. Downtime not only
                   costs you lost visitors but also damages your reputation and
                   search engine rankings.
@@ -128,10 +128,10 @@ const WebHosting = () => {
                   src={SupportImg}
                   alt="SupportImg"
                 />
-                <h3 className="text-black font-poppins fs_base font-bold pt-3">
+                <h3 className="text-[17px] sm:text-[18px] md:text-[20px] font-bold pt-3">
                   24x7 Friendly Support
                 </h3>
-                <p className="font-light text-black font-poppins text-[12px] sm:px-3 lg:px-6 pt-1">
+                <p className="font-light text-[12px] sm:px-3 lg:px-6 pt-1">
                   We Keep Your Web build Online 24x7x365. Downtime not only
                   costs you lost visitors but also damages your reputation and
                   search engine rankings.

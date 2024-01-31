@@ -15,7 +15,23 @@ module.exports = {
           xl: "1440px",
         },
       },
+      boxShadow: {
+        default: " 0px 0px 34px 0px rgba(176, 0, 0, 0.30)",
+        lg: "0px 0px 64px 0px rgba(176, 0, 0, 0.30)",
+        realStory: "0px 10px 20px 0px rgba(41, 41, 42, 0.07)",
+      },
+      scrollBehavior: ["responsive", "hover", "focus"],
     },
   },
-  plugins: [],
+  plugins: [
+    function ({ addComponents }) {
+      addComponents({
+        "@media (max-width: 1023.98px)": {
+          ".overflow_hidden": {
+            overflow: "hidden",
+          },
+        },
+      });
+    },
+  ],
 };
