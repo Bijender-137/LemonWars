@@ -100,7 +100,7 @@ const Hero = () => {
                 />
                 <img
                   loading="lazy"
-                  className="w-[400px]  sm:hidden mx-auto md:ms-auto md:mx-0 md:w-[400px] lg:w-[527px] xl:h-[504px] "
+                  className="w-[400px] sm:hidden mx-auto md:ms-auto md:mx-0 md:w-[400px] lg:w-[527px] xl:h-[504px] "
                   src={Webhosting2}
                   alt="Webhosting2"
                 />

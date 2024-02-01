@@ -101,7 +101,8 @@ const LemonWares = () => {
                       {data.heading}
                     </h2>
                     <p className="text-[12px] font-normal lg:leading-[18px] w-[237px] mt-2 md:mt-3">
-                      {data.description}
+                      with all your customers via all conversation channels in
+                      one central dashboard.
                     </p>
                     <p className="font-semibold text-[21px] sm:text-[30px] md:text-[32px] lg:text-[40px] xl:text-[42px] lg:leading-8 mt-3 md:mt-7">
                       {data.pricing}
@@ -110,7 +111,7 @@ const LemonWares = () => {
                       {data.para}
                     </p>
                     <button className="lg:mt-8 mt-4 sm:mt-6 border-[2px] border-black bg-white rounded-[12px] w-full py-2 lg:leading-[30px] hover:border-transparent hover:bg-[#B00000] hover:text-white transition-all ease-linear duration-300">
-                      {data.button}
+                      Choose this Plan
                     </button>
                     <div className="text-[15px] sm:text-[16px] font-inter font-bold text-[#808080] md:leading-6">
                       <div className="flex items-center mt-4 sm:mt-6 md:mt-[35px]">
@@ -127,7 +128,7 @@ const LemonWares = () => {
                       </div>
                       <div className="flex items-center mt-3 sm:mt-4">
                         <RightIcon />
-                        <p className="ms-6">{data.database}</p>
+                        <p className="ms-6">Unlimited Database</p>
                       </div>
                       <div className="flex items-center mt-3 sm:mt-4">
                         <RightIcon />
@@ -143,11 +144,11 @@ const LemonWares = () => {
                       </div>
                       <div className="flex items-center mt-3 sm:mt-4">
                         <RightIcon />
-                        <p className="ms-6">{data.freessl}</p>
+                        <p className="ms-6">Free SSL</p>
                       </div>
                       <div className="flex items-center mt-3 sm:mt-4">
                         <RightIcon />
-                        <p className="ms-6">{data.softcolus}</p>
+                        <p className="ms-6">Softaculous</p>
                       </div>
                     </div>
                   </div>

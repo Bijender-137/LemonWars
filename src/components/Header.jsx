@@ -17,8 +17,8 @@ const Header = () => {
     <>
       <div>
         <nav className="pt-6 xl:pt-10">
-          <div className="container mx-auto">
-            <div className="flex justify-between items-center lg:pl-14  lg:pr-20 xl:pl-28 xl:pr-44">
+          <div className="container">
+            <div className="flex justify-between items-center lg:pl-14 lg:pr-20 xl:pl-28 xl:pr-44">
               <div className="flex items-center">
                 {/* NAV LOGO */}
                 <a href="#">
@@ -33,7 +33,7 @@ const Header = () => {
                   <li className="ps-8 xl:ps-16">
                     <a
                       href="#services"
-                      className="text-[15px] font-semibold text-black font-poppins after:content-[''] after:w-0 transition-all ease-linear after:duration-500 after:absolute after:h-[2px] after:bg-[#B00000] after:start-[50%] hover:after:w-[80%] hover:after:start-[10%] overflow-hidden relative after:top-6 after:rounded-[10px]"
+                      className="text-[15px] font-semibold text-black font-poppins after:content-[''] after:w-0 transition-all ease-linear after:duration-300 after:absolute after:h-[2px] after:bg-[#B00000] after:start-[50%] hover:after:w-[80%] hover:after:start-[10%] overflow-hidden relative after:top-6 after:rounded-[10px]"
                     >
                       Our Services
                     </a>
@@ -42,14 +42,14 @@ const Header = () => {
               </div>
               <div className="lg:mr-12 xl:mr-24 text-[20px] sm:text-[24px] lg:text-[15px] font-semibold text-black  font-poppins">
                 <ul
-                  className={`flex gap-5 lg:gap-8 items-center justify-center z-20  flex-col lg:flex-row min-h-full lg:min-h-fit bg-white fixed lg:relative lg:bg-transparent start-[-100%] lg:start-0 top-0 w-full transition-all duration-300 ease-linear ${
+                  className={`flex gap-5 lg:gap-8 items-center justify-center z-20 flex-col lg:flex-row min-h-full lg:min-h-fit bg-white fixed lg:relative lg:bg-transparent start-[-100%] lg:start-0 top-0 w-full transition-all duration-300 ease-linear ${
                     head ? "" : "!left-0"
                   }`}
                 >
                   <li className="lg:hidden">
                     <a
                       href="#services"
-                      className="after:content-[''] after:w-0 transition-all ease-linear after:duration-500 after:absolute after:h-[2px] after:bg-[#B00000] after:start-[50%] hover:after:w-[80%] hover:after:start-[10%] overflow-hidden relative after:top-6 after:rounded-[10px]"
+                      className="after:content-[''] after:w-0 transition-all ease-linear after:duration-300 after:absolute after:h-[2px] after:bg-[#B00000] after:start-[50%] hover:after:w-[80%] hover:after:start-[10%] overflow-hidden relative after:top-6 after:rounded-[10px]"
                       onClick={showUl}
                     >
                       Our Services
@@ -58,7 +58,7 @@ const Header = () => {
                   <li>
                     <a
                       href="#about"
-                      className="after:content-[''] after:w-0 transition-all ease-linear after:duration-500 after:absolute after:h-[2px] after:bg-[#B00000] after:start-[50%] hover:after:w-[80%] hover:after:start-[10%] overflow-hidden relative after:top-6 after:rounded-[10px]"
+                      className="after:content-[''] after:w-0 transition-all ease-linear after:duration-300 after:absolute after:h-[2px] after:bg-[#B00000] after:start-[50%] hover:after:w-[80%] hover:after:start-[10%] overflow-hidden relative after:top-6 after:rounded-[10px]"
                       onClick={showUl}
                     >
                       About
@@ -66,7 +66,7 @@ const Header = () => {
                   </li>
                   <li>
                     <a
-                      className="after:content-[''] after:w-0 transition-all ease-linear after:duration-500 after:absolute after:h-[2px] after:bg-[#B00000] after:start-[50%] hover:after:w-[80%] hover:after:start-[10%] overflow-hidden relative after:top-6 after:rounded-[10px]"
+                      className="after:content-[''] after:w-0 transition-all ease-linear after:duration-300 after:absolute after:h-[2px] after:bg-[#B00000] after:start-[50%] hover:after:w-[80%] hover:after:start-[10%] overflow-hidden relative after:top-6 after:rounded-[10px]"
                       href="#blogs"
                       onClick={showUl}
                     >
@@ -75,7 +75,7 @@ const Header = () => {
                   </li>
                   <li>
                     <a
-                      className="after:content-[''] after:w-0 transition-all ease-linear after:duration-500 after:absolute after:h-[2px] after:bg-[#B00000] after:start-[50%] hover:after:w-[80%] hover:after:start-[10%] overflow-hidden relative after:top-6 after:rounded-[10px]"
+                      className="after:content-[''] after:w-0 transition-all ease-linear after:duration-300 after:absolute after:h-[2px] after:bg-[#B00000] after:start-[50%] hover:after:w-[80%] hover:after:start-[10%] overflow-hidden relative after:top-6 after:rounded-[10px]"
                       href="#contact"
                       onClick={showUl}
                     >
@@ -84,7 +84,7 @@ const Header = () => {
                   </li>
                   <li className="lg:hidden">
                     <a
-                      className="after:content-[''] after:w-0 transition-all ease-linear after:duration-500 after:absolute after:h-[2px] after:bg-[#B00000] after:start-[50%] hover:after:w-[80%] hover:after:start-[10%] overflow-hidden relative after:top-6 after:rounded-[10px]"
+                      className="after:content-[''] after:w-0 transition-all ease-linear after:duration-300 after:absolute after:h-[2px] after:bg-[#B00000] after:start-[50%] hover:after:w-[80%] hover:after:start-[10%] overflow-hidden relative after:top-6 after:rounded-[10px]"
                       href="#account"
                       onClick={showUl}
                     >
@@ -98,7 +98,7 @@ const Header = () => {
                 <ul className="items-center hidden lg:flex">
                   <li>
                     <a
-                      className="text-black text-[15px]  after:content-[''] after:w-0 transition-all ease-linear after:duration-500 after:absolute after:h-[2px] after:bg-[#B00000] after:start-[50%] hover:after:w-[80%] hover:after:start-[10%]  overflow-hidden relative after:top-6 after:rounded-[10px]"
+                      className="text-black text-[15px] after:content-[''] after:w-0 transition-all ease-linear after:duration-300 after:absolute after:h-[2px] after:bg-[#B00000] after:start-[50%] hover:after:w-[80%] hover:after:start-[10%]  overflow-hidden relative after:top-6 after:rounded-[10px]"
                       href="#account"
                       onClick={showUl}
                     >
