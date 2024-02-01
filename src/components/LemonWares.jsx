@@ -49,7 +49,7 @@ const LemonWares = () => {
                         checked={isYearly}
                         onChange={handleToggleChange}
                       />
-                      <div className="block bg-[#] w-[64px] sm:w-[93px] h-8 sm:h-12 rounded-full"></div>
+                      <div className="block bg-[#B00000] w-[64px] sm:w-[93px] h-8 sm:h-12 rounded-full"></div>
                       <div className="dot absolute left-1 top-[6px] sm:top-2 bg-white max-w-5 h-5 sm:max-w-[30px] w-full sm:h-[30px] rounded-full transition"></div>
                     </div>
                   </label>

@@ -20,7 +20,9 @@ module.exports = {
         lg: "0px 0px 64px 0px rgba(176, 0, 0, 0.30)",
         realStory: "0px 10px 20px 0px rgba(41, 41, 42, 0.07)",
       },
-      scrollBehavior: ["responsive", "hover", "focus"],
+      scrollBehavior: {
+        scrollbar: "smoth",
+      },
     },
   },
   plugins: [
