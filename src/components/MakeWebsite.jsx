@@ -32,7 +32,7 @@ text-center px-3"
               awesome.
             </h2>
             <div className="flex justify-center mt-10 mb-2">
-              <button className="bg-[#B00000] w-[208px] flex justify-center gap-2 py-3 px-4 rounded-[8px] text-white text-[14px] font-normal lg:leading-6 hover:bg-black transition-all ease-in-out duration-300">
+              <button className="bg-[#B00000] w-[208px] flex justify-center gap-2 py-3 px-4 rounded-[8px] text-white text-[14px] font-normal lg:leading-6 hover:bg-black transition-all ease-linear duration-300">
                 <WhatsappIcon />
                 Get in touch with us
               </button>

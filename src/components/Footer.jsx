@@ -38,7 +38,7 @@ const Footer = () => {
                       <li className="xl:mt-6 mt-4">
                         <a
                           href="#"
-                          className="after:content-[''] after:w-0 transition-all ease-linear after:duration-500 after:absolute after:h-[2px] after:bg-[#DEEAF9] after:start-[50%] hover:after:w-full hover:after:start-0 overflow-hidden relative after:top-5 after:rounded-full"
+                          className="after:content-[''] after:w-0 transition-all ease-linear after:duration-300 after:absolute after:h-[2px] after:bg-[#DEEAF9] after:start-[50%] hover:after:w-full hover:after:start-0 overflow-hidden relative after:top-5 after:rounded-full"
                         >
                           Domain
                         </a>
@@ -46,7 +46,7 @@ const Footer = () => {
                       <li className="xl:mt-6 mt-3">
                         <a
                           href="#"
-                          className=" after:content-[''] after:w-0 transition-all ease-linear after:duration-500 after:absolute after:h-[2px] after:bg-[#DEEAF9] after:start-[50%] hover:after:w-full hover:after:start-0 overflow-hidden relative after:top-5 after:rounded-full"
+                          className=" after:content-[''] after:w-0 transition-all ease-linear after:duration-300 after:absolute after:h-[2px] after:bg-[#DEEAF9] after:start-[50%] hover:after:w-full hover:after:start-0 overflow-hidden relative after:top-5 after:rounded-full"
                         >
                           Shared Hosting
                         </a>
@@ -54,7 +54,7 @@ const Footer = () => {
                       <li className="xl:mt-6 mt-3">
                         <a
                           href="#"
-                          className="after:content-[''] after:w-0 transition-all ease-linear after:duration-500 after:absolute after:h-[2px] after:bg-[#DEEAF9] after:start-[50%] hover:after:w-full hover:after:start-0 overflow-hidden relative after:top-5 after:rounded-full"
+                          className="after:content-[''] after:w-0 transition-all ease-linear after:duration-300 after:absolute after:h-[2px] after:bg-[#DEEAF9] after:start-[50%] hover:after:w-full hover:after:start-0 overflow-hidden relative after:top-5 after:rounded-full"
                         >
                           Cloud Hosting
                         </a>
@@ -62,7 +62,7 @@ const Footer = () => {
                       <li className="xl:mt-6 mt-3">
                         <a
                           href="#"
-                          className="after:content-[''] after:w-0 transition-all ease-linear after:duration-500 after:absolute after:h-[2px] after:bg-[#DEEAF9] after:start-[50%] hover:after:w-full hover:after:start-0 overflow-hidden relative after:top-5 after:rounded-full"
+                          className="after:content-[''] after:w-0 transition-all ease-linear after:duration-300 after:absolute after:h-[2px] after:bg-[#DEEAF9] after:start-[50%] hover:after:w-full hover:after:start-0 overflow-hidden relative after:top-5 after:rounded-full"
                         >
                           Private Hosting
                         </a>
@@ -77,7 +77,7 @@ const Footer = () => {
                       <li className="xl:mt-6 mt-4">
                         <a
                           href="#"
-                          className="after:content-[''] after:w-0 transition-all ease-linear after:duration-500 after:absolute after:h-[2px] after:bg-[#DEEAF9] after:start-[50%] hover:after:w-full hover:after:start-0 overflow-hidden relative after:top-5 after:rounded-full"
+                          className="after:content-[''] after:w-0 transition-all ease-linear after:duration-300 after:absolute after:h-[2px] after:bg-[#DEEAF9] after:start-[50%] hover:after:w-full hover:after:start-0 overflow-hidden relative after:top-5 after:rounded-full"
                         >
                           Cheap Hosting
                         </a>
@@ -85,7 +85,7 @@ const Footer = () => {
                       <li className="xl:mt-6 mt-3">
                         <a
                           href="#"
-                          className="after:content-[''] after:w-0 transition-all ease-linear after:duration-500 after:absolute after:h-[2px] after:bg-[#DEEAF9] after:start-[50%] hover:after:w-full hover:after:start-0 overflow-hidden relative after:top-5 after:rounded-full"
+                          className="after:content-[''] after:w-0 transition-all ease-linear after:duration-300 after:absolute after:h-[2px] after:bg-[#DEEAF9] after:start-[50%] hover:after:w-full hover:after:start-0 overflow-hidden relative after:top-5 after:rounded-full"
                         >
                           Hosting Wordpress
                         </a>
@@ -93,7 +93,7 @@ const Footer = () => {
                       <li className="xl:mt-6 mt-3">
                         <a
                           href="#"
-                          className="after:content-[''] after:w-0 transition-all ease-linear after:duration-500 after:absolute after:h-[2px] after:bg-[#DEEAF9] after:start-[50%] hover:after:w-full hover:after:start-0 overflow-hidden relative after:top-5 after:rounded-full"
+                          className="after:content-[''] after:w-0 transition-all ease-linear after:duration-300 after:absolute after:h-[2px] after:bg-[#DEEAF9] after:start-[50%] hover:after:w-full hover:after:start-0 overflow-hidden relative after:top-5 after:rounded-full"
                         >
                           Email Hosting
                         </a>
@@ -101,7 +101,7 @@ const Footer = () => {
                       <li className="xl:mt-6 mt-3">
                         <a
                           href="#"
-                          className="after:content-[''] after:w-0 transition-all ease-linear after:duration-500 after:absolute after:h-[2px] after:bg-[#DEEAF9] after:start-[50%] hover:after:w-full hover:after:start-0 overflow-hidden relative after:top-5 after:rounded-full"
+                          className="after:content-[''] after:w-0 transition-all ease-linear after:duration-300 after:absolute after:h-[2px] after:bg-[#DEEAF9] after:start-[50%] hover:after:w-full hover:after:start-0 overflow-hidden relative after:top-5 after:rounded-full"
                         >
                           Hosting Unlimited
                         </a>
@@ -117,7 +117,7 @@ const Footer = () => {
                       <li className="xl:mt-6 mt-4">
                         <a
                           href="#"
-                          className="after:content-[''] after:w-0 transition-all ease-linear after:duration-500 after:absolute after:h-[2px] after:bg-[#DEEAF9] after:start-[50%] hover:after:w-full hover:after:start-0 overflow-hidden relative after:top-5 after:rounded-full"
+                          className="after:content-[''] after:w-0 transition-all ease-linear after:duration-300 after:absolute after:h-[2px] after:bg-[#DEEAF9] after:start-[50%] hover:after:w-full hover:after:start-0 overflow-hidden relative after:top-5 after:rounded-full"
                         >
                           About
                         </a>
@@ -125,7 +125,7 @@ const Footer = () => {
                       <li className="xl:mt-6 mt-3">
                         <a
                           href="#"
-                          className="after:content-[''] after:w-0 transition-all ease-linear after:duration-500 after:absolute after:h-[2px] after:bg-[#DEEAF9] after:start-[50%] hover:after:w-full hover:after:start-0 overflow-hidden relative after:top-5 after:rounded-full"
+                          className="after:content-[''] after:w-0 transition-all ease-linear after:duration-300 after:absolute after:h-[2px] after:bg-[#DEEAF9] after:start-[50%] hover:after:w-full hover:after:start-0 overflow-hidden relative after:top-5 after:rounded-full"
                         >
                           Career
                         </a>
@@ -133,7 +133,7 @@ const Footer = () => {
                       <li className="xl:mt-6 mt-3">
                         <a
                           href="#"
-                          className="after:content-[''] after:w-0 transition-all ease-linear after:duration-500 after:absolute after:h-[2px] after:bg-[#DEEAF9] after:start-[50%] hover:after:w-full hover:after:start-0 overflow-hidden relative after:top-5 after:rounded-full"
+                          className="after:content-[''] after:w-0 transition-all ease-linear after:duration-300 after:absolute after:h-[2px] after:bg-[#DEEAF9] after:start-[50%] hover:after:w-full hover:after:start-0 overflow-hidden relative after:top-5 after:rounded-full"
                         >
                           Contact Us
                         </a>
@@ -149,7 +149,7 @@ const Footer = () => {
                       <li className="xl:mt-6 mt-4">
                         <a
                           href="#"
-                          className="after:content-[''] after:w-0 transition-all ease-linear after:duration-500 after:absolute after:h-[2px] after:bg-[#DEEAF9] after:start-[50%] hover:after:w-full hover:after:start-0 overflow-hidden relative after:top-5 after:rounded-full"
+                          className="after:content-[''] after:w-0 transition-all ease-linear after:duration-300 after:absolute after:h-[2px] after:bg-[#DEEAF9] after:start-[50%] hover:after:w-full hover:after:start-0 overflow-hidden relative after:top-5 after:rounded-full"
                         >
                           FAQ
                         </a>
@@ -157,7 +157,7 @@ const Footer = () => {
                       <li className="xl:mt-6 mt-3">
                         <a
                           href="#"
-                          className="after:content-[''] after:w-0 transition-all ease-linear after:duration-500 after:absolute after:h-[2px] after:bg-[#DEEAF9] after:start-[50%] hover:after:w-full hover:after:start-0 overflow-hidden relative after:top-5 after:rounded-full"
+                          className="after:content-[''] after:w-0 transition-all ease-linear after:duration-300 after:absolute after:h-[2px] after:bg-[#DEEAF9] after:start-[50%] hover:after:w-full hover:after:start-0 overflow-hidden relative after:top-5 after:rounded-full"
                         >
                           Help support
                         </a>

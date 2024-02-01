@@ -50,7 +50,7 @@ const LemonWares = () => {
                         onChange={handleToggleChange}
                       />
                       <div className="block bg-[#B00000] w-[64px] sm:w-[93px] h-8 sm:h-12 rounded-full"></div>
-                      <div className="dot absolute left-1 top-[6px] sm:top-2 bg-white max-w-5 h-5 sm:max-w-[30px] w-full sm:h-[30px] rounded-full transition"></div>
+                      <div className="dot absolute left-1 top-[6px] sm:top-2 bg-white max-w-5 h-5 sm:max-w-[30px] w-full sm:h-[30px] rounded-full transition-all"></div>
                     </div>
                   </label>
                 </div>
@@ -96,7 +96,7 @@ const LemonWares = () => {
               {/* MAP FUNCTION */}
               {activeCards.map((data) => (
                 <div key={data.Id}>
-                  <div className="border-[#C4C4C4] duration-200 hover:scale-105 border-[1.5px] rounded-[15px] pt-6 md:pt-[34px] pr-5 md:pr-[29px] pb-6 md:pb-12 pl-5 md:pl-[35px] max-w-[400px] mx-auto text-black font-poppins">
+                  <div className="border-[#C4C4C4] duration-300 ease-linear hover:scale-105 border-[1.5px] rounded-[15px] pt-6 md:pt-[34px] pr-5 md:pr-[29px] pb-6 md:pb-12 pl-5 md:pl-[35px] max-w-[400px] mx-auto text-black font-poppins">
                     <h2 className="font-semibold lg:leading-6 text-[19px] sm:text-[23px] md:text-[25px] lg:text-[28px]">
                       {data.heading}
                     </h2>
@@ -115,7 +115,7 @@ const LemonWares = () => {
                     <div className="text-[15px] sm:text-[16px] font-inter font-bold text-[#808080] md:leading-6">
                       <div className="flex items-center mt-4 sm:mt-6 md:mt-[35px]">
                         <RightIcon />
-                        <p className="ms-6">{data.subtitle}</p>
+                        <p className="ms-6">{data.subtitle}</p>-all
                       </div>
                       <div className="flex items-center mt-3 sm:mt-4">
                         <RightIcon />
