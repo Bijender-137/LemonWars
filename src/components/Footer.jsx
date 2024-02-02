@@ -14,6 +14,8 @@ const Footer = () => {
                 {/* FOOTER LOGO */}
                 <a href="#">
                   <img
+                    width={120}
+                    height={80}
                     loading="lazy"
                     className="sm:max-w-[120px] h-14 sm:h-[80px] max-w-[80px]"
                     src={FooterLogo}

@@ -23,6 +23,8 @@ const Header = () => {
                 {/* NAV LOGO */}
                 <a href="#">
                   <img
+                    width={90}
+                    height={60}
                     loading="lazy"
                     src={Pagelogo}
                     alt="Pagelogo"
