@@ -35,7 +35,7 @@ const WebHosting = () => {
                   <img
                     width={100}
                     height={140}
-                    loading="lazy"
+                    loading="eager"
                     className="w-[100px] h-6 sm:h-[30px] sm:w-[140px]"
                     src={PanelImg}
                     alt="PanelImg"
@@ -43,7 +43,7 @@ const WebHosting = () => {
                   <img
                     width={100}
                     height={140}
-                    loading="lazy"
+                    loading="eager"
                     className="sm:w-[125px] sm:h-[50px] h-10 w-[100px]"
                     src={SecuredImunify}
                     alt="SecuredImunify"
@@ -51,7 +51,7 @@ const WebHosting = () => {
                   <img
                     width={100}
                     height={140}
-                    loading="lazy"
+                    loading="eager"
                     className="sm:w-[125px] w-[100px] sm:h-[53px] h-10 ps -1"
                     src={LiteSpeed}
                     alt="LiteSpeed"
@@ -59,7 +59,7 @@ const WebHosting = () => {
                   <img
                     width={100}
                     height={140}
-                    loading="lazy"
+                    loading="eager"
                     className="sm:w-[172px] w-[120px] sm:h-[92px] h-16 lg:mt-5"
                     src={SoftaColor}
                     alt="SoftaColor"
@@ -67,7 +67,7 @@ const WebHosting = () => {
                   <img
                     width={100}
                     height={140}
-                    loading="lazy"
+                    loading="eager"
                     className="sm:w-[168px] w-[120px] sm:h-[56px] h-11 lg:mt-5"
                     src={WordPress}
                     alt="WordPress"
@@ -75,7 +75,7 @@ const WebHosting = () => {
                   <img
                     width={100}
                     height={140}
-                    loading="lazy"
+                    loading="eager"
                     className="sm:w-[143px] w-[110px] h-[47px] lg:mt-5"
                     src={CloudFair}
                     alt="CloudFair"
@@ -89,7 +89,7 @@ const WebHosting = () => {
                 <img
                   width={80}
                   height={80}
-                  loading="lazy"
+                  loading="eager"
                   className="w-[80px] md:w-[100px] mx-auto"
                   src={UptimeImg}
                   alt="UptimeImg"
@@ -107,7 +107,7 @@ const WebHosting = () => {
                 <img
                   width={80}
                   height={80}
-                  loading="lazy"
+                  loading="eager"
                   className="w-[80px] md:w-[100px] mx-auto"
                   src={BlazingHosting}
                   alt="BlazingHosting"
@@ -125,7 +125,7 @@ const WebHosting = () => {
                 <img
                   width={80}
                   height={80}
-                  loading="lazy"
+                  loading="eager"
                   className="w-[80px] md:w-[100px] mx-auto"
                   src={SslCertificate}
                   alt="SslCertificate"
@@ -143,7 +143,7 @@ const WebHosting = () => {
                 <img
                   width={80}
                   height={80}
-                  loading="lazy"
+                  loading="eager"
                   className="w-[80px] md:w-[100px] mx-auto"
                   src={SupportImg}
                   alt="SupportImg"

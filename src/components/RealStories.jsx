@@ -27,7 +27,7 @@ const RealStories = () => {
                   Customers
                 </h2>
                 <img
-                  loading="lazy"
+                  loading="eager"
                   className=" max-w-[50px] md:max-w-[80px] lg:max-w-[115px] xl:max-w-[143px] top-[-20px] left-[-8px] absolute md:top-[-30px] md:left-[-0px] lg:top-[-60px] xl:top-[-80px] lg:left-[-55px] xl:left-[-80px]"
                   src={QuateMark}
                   alt="QuateMark"
@@ -52,7 +52,7 @@ const RealStories = () => {
                     praesent elem
                   </p>
                   <img
-                    loading="lazy"
+                    loading="eager"
                     className="absolute top-0 left-[-25px]"
                     src={QuateGreenImg}
                     alt="QuateGreenImg"
@@ -73,7 +73,7 @@ const RealStories = () => {
               <img
                 width={78}
                 height={50}
-                loading="lazy"
+                loading="eager"
                 className="max-w-[78px] h-[50px]"
                 src={JpnlImg}
                 alt="JpnlImg"
@@ -86,7 +86,7 @@ const RealStories = () => {
                   praesent elem
                 </p>
                 <img
-                  loading="lazy"
+                  loading="eager"
                   className="absolute top-0 left-[-25px]"
                   src={QuateGreenImg}
                   alt="QuateGreenImg"
@@ -103,7 +103,7 @@ const RealStories = () => {
               <img
                 width={120}
                 height={63}
-                loading="lazy"
+                loading="eager"
                 className="max-w-[120px] h-[63px]"
                 src={BrandingImg}
                 alt="BrandingImg"
@@ -113,7 +113,7 @@ const RealStories = () => {
                   LemonWares saved our time in Hosting my company page.
                 </p>
                 <img
-                  loading="lazy"
+                  loading="eager"
                   className="absolute top-0 left-[-25px]"
                   src={QuateGreenImg}
                   alt="QuateGreenImg"
@@ -146,7 +146,7 @@ const RealStories = () => {
               <img
                 width={120}
                 height={120}
-                loading="lazy"
+                loading="eager"
                 className="max-w-[100px] h-[80px] sm:max-w-[120px] sm:h-[120px]"
                 src={JpnlLongImg}
                 alt="JpnlLongImg"
@@ -154,7 +154,7 @@ const RealStories = () => {
               <img
                 width={120}
                 height={120}
-                loading="lazy"
+                loading="eager"
                 className="max-w-[100px] h-[80px] sm:max-w-[120px] sm:h-[120px]"
                 src={KoraneImg}
                 alt="KoraneImg"
@@ -162,7 +162,7 @@ const RealStories = () => {
               <img
                 width={120}
                 height={120}
-                loading="lazy"
+                loading="eager"
                 className="max-w-[100px] h-[80px] sm:max-w-[120px] xl:h-[120px]"
                 src={NadineImg}
                 alt="NadineImg"
@@ -170,7 +170,7 @@ const RealStories = () => {
               <img
                 width={120}
                 height={120}
-                loading="lazy"
+                loading="eager"
                 className="max-w-[100px] h-[80px] sm:max-w-[120px] sm:h-[120px]"
                 src={BrandingLongImg}
                 alt="BrandingLongImg"
@@ -178,7 +178,7 @@ const RealStories = () => {
               <img
                 width={120}
                 height={120}
-                loading="lazy"
+                loading="eager"
                 className="max-w-[100px] h-[80px] sm:max-w-[120px] sm:h-[120px]"
                 src={JangoImg}
                 alt="JangoImg"
@@ -186,7 +186,7 @@ const RealStories = () => {
               <img
                 width={120}
                 height={120}
-                loading="lazy"
+                loading="eager"
                 className="max-w-[100px] h-[80px] sm:max-w-[120px] sm:h-[120px]"
                 src={CliLongImg}
                 alt="CliLongImg"

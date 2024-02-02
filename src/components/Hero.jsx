@@ -95,16 +95,16 @@ const Hero = () => {
                 <img
                   width={400}
                   height={350}
-                  loading="lazy"
+                  loading="eager"
                   className="w-[400px] mx-auto hidden sm:block md:ms-auto md:mx-0 md:w-[390px] lg:w-[527px] xl:h-[504px] "
                   src={WebHostingGirl}
                   alt="WebHostingGirl"
                 />
                 <img
-                  width={400}
-                  height={350}
-                  loading="lazy"
-                  className="w-[400px] sm:hidden mx-auto md:ms-auto md:mx-0 md:w-[400px] lg:w-[527px] xl:h-[504px] "
+                  width={300}
+                  height={300}
+                  loading="eager"
+                  className="w-[300px] sm:hidden mx-auto"
                   src={Webhosting2}
                   alt="Webhosting2"
                 />

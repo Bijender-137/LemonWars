@@ -25,7 +25,7 @@ const Header = () => {
                   <img
                     width={90}
                     height={60}
-                    loading="lazy"
+                    loading="eager"
                     src={Pagelogo}
                     alt="Pagelogo"
                     className="md:max-w-[90px] md:h-[60px] sm:h-[40px] max-w-[50px] h-[40px]"
